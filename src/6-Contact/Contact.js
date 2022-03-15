@@ -18,9 +18,9 @@ function Contact() {
             background: '#444',
             backdrop: `rgba(0,0,0,0.5)`
         })
-        emailjs.sendForm('service_p4e9t3x', 'template_40qv28e', formRef.current, 'user_Wr18txCeJipUS6ENtKUc0')
-        .then(e.target.reset())
-        .catch (error => console.log(error.text))
+        // emailjs.sendForm('service_p4e9t3x', 'template_40qv28e', formRef.current, 'user_Wr18txCeJipUS6ENtKUc0')
+        // .then(e.target.reset())
+        // .catch (error => console.log(error.text))
     }
 
     function handleCopy() {
@@ -79,7 +79,7 @@ function Contact() {
             <div className="contact-right-box">
             <div className="contact-right-cover"></div>
                 <div className="map-popup">
-                    <p>David Venegas</p>
+                    <p>Joshua Venegas</p>
                     <p>venegasdavidm@gmail.com</p>
                     <p>1-803-944-1772</p>
                     <p>NYC, NY - USA</p>
