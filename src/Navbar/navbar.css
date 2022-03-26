@@ -68,7 +68,7 @@
     cursor: pointer;
 }
 .nav-link:hover {
-    color: #08fdd8;
+    color: #53a7d1;
 }
 .nav-link:active h1{
     transform: scale(.95);
@@ -99,10 +99,10 @@
 }
 .nav-item:hover::after {
     height: 100%;
-    background-color: #08fdd8;
+    background-color: #53a7d1;
 }
 .nav-item .active {
-    color: #08fdd8;
+    color: #53a7d1;
 }
 .navbar-bottom {
     margin: 2rem 0 5rem;
@@ -115,7 +115,7 @@
     transition: all .25s ease;
 }
 .nav-icon:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     transform: scale(1.085);
 }
 

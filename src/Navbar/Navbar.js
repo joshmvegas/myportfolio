@@ -10,7 +10,7 @@ function Navbar() {
     const navigate = useNavigate()
     const closeNav = () => setNavActive(false)
     const [navActive, setNavActive] = useState(false)
-    useEffect(() => {navActive ?  document.body.style.overflow = 'hidden' : document.body.style.overflow = 'unset'}, [navActive])
+    useEffect(() => {navActive ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'unset'}, [navActive])
     function handleLogoClick() {
         navigate('/contact')
         closeNav()
