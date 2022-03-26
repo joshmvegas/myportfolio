@@ -25,7 +25,7 @@ function Navbar() {
             <div className={navActive ? "navbar-container navActive" : "navbar-container"}>
                 <div className="navbar-top">
                     <img src={Logo} alt="DV" onClick={() => handleLogoClick()} />
-                    <h1>David Venegas</h1>
+                    <h1>Joshua Venegas</h1>
                     <p>Fullstack Developer</p>
                 </div>
                 <ul className="nav-menu">
