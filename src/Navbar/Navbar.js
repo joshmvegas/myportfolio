@@ -33,7 +33,7 @@ function Navbar() {
                     <li className="nav-item" onClick={() => closeNav()}><NavLink to="/skills" activeClassName="active" className="nav-link"><h1>Qualifications</h1></NavLink></li>
                     <li className="nav-item" onClick={() => closeNav()}><NavLink to="/work" activeClassName="active" className="nav-link"><h1>Clinical Experience</h1></NavLink></li>
                     <li className="nav-item" onClick={() => closeNav()}><NavLink to="/algorithms" activeClassName="active" className="nav-link"><h1>Extracurriculars</h1></NavLink></li>
-                    <li className="nav-item" onClick={() => closeNav()}><NavLink to="/blogs" activeClassName="active" className="nav-link"><h1>My Articles</h1></NavLink></li>
+                    <li className="nav-item" onClick={() => closeNav()}><NavLink to="/blogs" activeClassName="active" className="nav-link"><h1>Journal Articles</h1></NavLink></li>
                     <li className="nav-item" onClick={() => closeNav()}><NavLink to="/contact" activeClassName="active" className="nav-link"><h1>Contact Me</h1></NavLink></li>
                 </ul>
                 <div className="navbar-bottom">

@@ -10,27 +10,17 @@
 .about-left-box {
     padding-left: 5.5rem;
 }
-.about-left-title:before {
-    content: '🩺';
-    position: absolute;
-    font-family: cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    margin-top: -5rem;
-    left: -1.25rem;
-}
 .about-left-title {
     position: relative;
-    font-size: 7.75rem;
-    line-height: 8.75rem;
+    font-size: 7.5rem;
+    line-height: 8.5rem;
 }
 .about-left-title span {
     display: inline-block;
     transition: color .35s ease;
 }
 .about-left-title span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
 }
 @keyframes aboutFadeIn {
     from {transform: scale3d(1, 1, 1); opacity: 0;}
@@ -80,57 +70,18 @@
 @-webkit-keyframes aboutTitleAfterFade {
     100% {opacity: 1}
 }
-.about-left-title:after {
-    content: '</h1>';
-    position: absolute;
-    font-family: cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    margin-top: 2.25rem;
-    margin-left: 1rem;
-    -webkit-animation: aboutTitleAfterFade .5s ease 1.8s forwards;
-    -moz-animation: aboutTitleAfterFade .5s ease 1.8s forwards;
-    -ms-animation: aboutTitleAfterFade .5s ease 1.8s forwards;
-    -o-animation: aboutTitleAfterFade .5s ease 1.8s forwards;
-    animation: aboutTitleAfterFade .5s ease 1.8s forwards;
-    opacity: 0;
-}
 @keyframes aboutDescriptionFade {
     100% {opacity: 1}
 }
 @-webkit-keyframes aboutDescriptionFade {
     100% {opacity: 1}
 }
-.about-left-description:before {
-    content: '<p>';
-    font-family: cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    position: absolute;
-    margin-top: -2.65rem;
-    left: -1.25rem;
-    animation: aboutDescriptionFade 1s ease .65s forwards;
-    opacity: 0;
-}
 .about-left-description {
     position: relative;
     color: #8d8d8d;
-    font-size: 1.6rem;
+    font-size: 1.65rem;
     letter-spacing: 4px;
-    margin-top: 4rem;
-    animation: aboutDescriptionFade 1s ease .65s forwards;
-    opacity: 0;
-}
-.about-left-description:after {
-    content: '</p>';
-    font-size: 14px;
-    font-family: cursive;
-    color: #515152;
-    position: absolute;
-    left: -1.25rem;
-    bottom: -2.25rem;
+    margin-top: 3.85rem;
     animation: aboutDescriptionFade 1s ease .65s forwards;
     opacity: 0;
 }
@@ -144,7 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 11.5rem;
+    margin-top: 12rem;
     margin-bottom: -5rem;
     opacity: 0;
     animation: aboutButtonBoxUp 1s ease 1.25s forwards;
@@ -152,14 +103,15 @@
 .about-contact-button {
     position: relative;
     display: block;
+    margin-top: -1.75rem;
     font-size: 16px;
     line-height: 50px;
     letter-spacing: 4px;
     height: 51.5px;
     width: 215px;
     background-color: transparent;
-    border: 1px solid #08fdd8;
-    color: #08fdd8;
+    border: 1px solid #53a7d1;
+    color: #53a7d1;
     text-align: center;
     cursor: pointer;
     overflow: hidden;
@@ -169,7 +121,7 @@
     color: #1f1f1f;
 }
 .about-contact-button:after {
-    background: #08fdd8;
+    background: #53a7d1;
     content: "";
     height: 220px;
     left: -350px;
@@ -188,7 +140,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
+    margin-top: -1.75rem;
 }
 .about-resume-title {
     font-size: 2.085rem;
@@ -216,18 +169,6 @@
 .about-resume-pdf:active {
     transform: scale(.95);
 }
-.about-resume-googleDocs {
-    height: 5rem;
-    width: 5rem;
-    transition: all ease .15s;
-}
-.about-resume-googleDocs:hover {
-    cursor: pointer;
-    transform: scale(1.085);
-}
-.about-resume-googleDocs:active {
-    transform: scale(.95);
-}
 
 
 /* RIGHT SIDE */
@@ -243,64 +184,24 @@
     animation: aboutRightSideFade 1.5s ease 1.5s forwards;
     opacity: 0;
 }
-.about-right-title:before {
-    content: '<h2>';
-    position: absolute;
-    font-family: cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    margin-top: -3.75rem;
-    left: -1rem;
-}
 .about-right-title {
     position: relative;
-    color: #08fdd8;
-    font-size: 5.25rem;
-    line-height: 12.65rem;
+    color: #53a7d1;
+    font-size: 5.35rem;
+    line-height: 10rem;
     font-weight: 500;
-}
-.about-right-title:after {
-    content: '</h2>';
-    position: absolute;
-    font-family: cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    left: -1rem;
-    bottom: -3.75rem;
-}
-.about-right-description:before {
-    content: '<p>';
-    position: absolute;
-    font-family: cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    margin-top: -2.5rem;
-    left: -1rem;
 }
 .about-right-description {
     margin-top: 2rem;
     position: relative;
-    font-size: 1.7rem;
-    line-height: 1.5;
+    font-size: 1.75rem;
+    line-height: 1.55;
 }
 .about-right-description span {
     text-decoration: underline;
     font-weight: 500;
-    color: #08fdd8;
+    color: #53a7d1;
     cursor: pointer;
-}
-.about-right-description:after {
-    content: '</p>';
-    position: absolute;
-    font-family:cursive;
-    color: #515152;
-    font-size: 14px;
-    font-weight: 200;
-    left: -1rem;
-    bottom: -2.5rem;
 }
 
 /* RESPONSIVE */
