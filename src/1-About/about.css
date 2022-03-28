@@ -11,7 +11,7 @@
     padding-left: 5.5rem;
 }
 .about-left-title:before {
-    content: '<h1>';
+    content: '🩺';
     position: absolute;
     font-family: cursive;
     color: #515152;
