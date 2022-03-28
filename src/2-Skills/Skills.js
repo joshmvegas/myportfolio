@@ -52,8 +52,8 @@ function Skills() {
                     <span>s</span>
                 </h1>
                 <p className="skills-description">
-                    <TypeWriterEffect startDelay={1000} cursorColor="white" text="I love to learn and am always teaching myself new things." typeSpeed={35} hideCursorAfterText={true}/>&nbsp;&nbsp;
-                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="These are my strongest skillsets and technologies." typeSpeed={35} hideCursorAfterText={true}/></span>
+                    <TypeWriterEffect startDelay={1000} cursorColor="white" text="I love to learn and enjoy applying myself to new things." typeSpeed={35} hideCursorAfterText={true}/>&nbsp;&nbsp;
+                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="Here are a few of my strongest skillsets." typeSpeed={35} hideCursorAfterText={true}/></span>
                 </p>
                 <div className="skills-box">
                     <h1 className="skills-title">Frontend</h1>
