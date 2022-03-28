@@ -168,9 +168,9 @@ function Skills() {
                             </div>
                         </div>
                         <div className="flatiron-text-box">
-                            <h3>NYC, New York</h3>
-                            <h1>Software Engineering</h1>
-                            <h4>FLATIRON SCHOOL</h4>
+                            <h3>Greenville, South Carolina</h3>
+                            <h1>B.S. Pre-Med/Pre-Dental</h1>
+                            <h4>BOB JONES UNIVERSITY</h4>
                             <p>A highly acknowledged Software Engineering trade school and proven leader in tech education.</p>
                             <div className="flatiron-description-box">
                                 <p>Some things I did as a student:</p>
