@@ -27,7 +27,7 @@ function Contact() {
         let clearPopup = setTimeout(() => setCopied(false), 1500)
         copied && clearTimeout(clearPopup)
         setCopied(true)
-        navigator.clipboard.writeText("venegasdavidm@gmail.com")
+        navigator.clipboard.writeText("venegasjoshua1@gmail.com")
     }
 
     return (
@@ -71,7 +71,7 @@ function Contact() {
                 <div className="contact-aside contactForm7">
                     <p id='contact-copy-top'>Or email me directly at:</p>
                     <div className="contact-copy-wrap">
-                        <div className='contact-copy-box'><VscCopy onClick={() => handleCopy()} id='contact-copy-icon'/><p id='contact-copy-email'>venegasdavidm@gmail.com</p></div>
+                        <div className='contact-copy-box'><VscCopy onClick={() => handleCopy()} id='contact-copy-icon'/><p id='contact-copy-email'>venegasjoshua1@gmail.com</p></div>
                         <div className='contact-popup' id={copied ? "contact-popup-show" : undefined}>Copied!</div>
                     </div>
                 </div>
@@ -79,13 +79,13 @@ function Contact() {
             <div className="contact-right-box">
             <div className="contact-right-cover"></div>
                 <div className="map-popup">
-                    <p>David Venegas</p>
-                    <p>venegasdavidm@gmail.com</p>
-                    <p>1-803-944-1772</p>
-                    <p>NYC, NY - USA</p>
+                    <p>Joshua Venegas</p>
+                    <p>venegasjoshua1@gmail.com</p>
+                    <p>1-803-727-2627</p>
+                    <p>Greenvile, SC - USA</p>
                 </div>
                 <div className="map-wrapper">
-                    <iframe title='Contact Map' src="https://snazzymaps.com/embed/370659" width="100%" height="100%" style={{border: "none"}}/>
+                    <iframe title='Contact Map' src="https://snazzymaps.com/embed/382691" width="100%" height="100%" style={{border: "none"}}/>
                 </div>
             </div>
         </div>

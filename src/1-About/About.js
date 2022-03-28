@@ -11,37 +11,37 @@ function About() {
             <div className="about-left-box">
                 <h1 className="about-left-title">
                     <span id='letter_H'>H</span>
-                    <span id='letter_i_one'>e</span>
-                    <span id='letter_i_one'>l</span>
-                    <span id='letter_i_one'>l</span>
-                    <span id='letter_i_one'>o</span>
-                    <span id='letter_comma_one'>,</span>
+                    <span id='letter_e'>e</span>
+                    <span id='letter_l'>l</span>
+                    <span id='letter_l_two'>l</span>
+                    <span id='letter_o'>o</span>
+                    <span id='letter_comma'>,</span>
                     <br />
                     <span id='letter_I'>I</span>
                     <span id='letter_hyphen'>'</span>
                     <span id='letter_m'>m</span>&nbsp;
-                    <span id='letter_D_one'>J</span>
-                    <span id='letter_a'>o</span>
-                    <span id='letter_v_one'>s</span>
-                    <span id='letter_i_two'>h</span>
-                    <span id='letter_d'>u</span>
-                    <span id='letter_d'>a</span>
+                    <span id='letter_J'>J</span>
+                    <span id='letter_o_two'>o</span>
+                    <span id='letter_s'>s</span>
+                    <span id='letter_h'>h</span>
+                    <span id='letter_u'>u</span>
+                    <span id='letter_a'>a</span>
                     <span id='letter_comma_two'>,</span>
                     <br />
-                    <span id='letter_W'>M</span>
-                    <span id='letter_e_one'>e</span>
-                    <span id='letter_e_one'>d</span>
-                    <span id='letter_e_one'>i</span>
-                    <span id='letter_e_one'>c</span>
-                    <span id='letter_e_one'>a</span>
-                    <span id='letter_b'>l</span>&nbsp;
-                    <span id='letter_D_two'>S</span>
-                    <span id='letter_e_two'>t</span>
-                    <span id='letter_v_two'>u</span>
-                    <span id='letter_e_three'>d</span>
-                    <span id='letter_l'>e</span>
-                    <span id='letter_o'>n</span>
-                    <span id='letter_p'>t</span>
+                    <span id='letter_M'>M</span>
+                    <span id='letter_e_two'>e</span>
+                    <span id='letter_d'>d</span>
+                    <span id='letter_i'>i</span>
+                    <span id='letter_c'>c</span>
+                    <span id='letter_a_two'>a</span>
+                    <span id='letter_l_three'>l</span>&nbsp;
+                    <span id='letter_S'>S</span>
+                    <span id='letter_t'>t</span>
+                    <span id='letter_u_two'>u</span>
+                    <span id='letter_d_two'>d</span>
+                    <span id='letter_e_three'>e</span>
+                    <span id='letter_n'>n</span>
+                    <span id='letter_t_two'>t</span>
                 </h1>
                 <p className='about-left-description'>Pre-Med Undergrad / Science Enthusiast</p>
                 <div className="about-left-button-box">
@@ -49,7 +49,7 @@ function About() {
                     <div className="about-resume-box">
                         <h2 className="about-resume-title">Download my CV:</h2>
                         <div className="about-resume-buttons-wrapper">
-                            <a href="David_Venegas_Resume.pdf" download><img src={PDF_Icon} alt="PDF" className="about-resume-pdf"/></a>
+                            <a href="Joshua_Venegas_CV.pdf" download><img src={PDF_Icon} alt="PDF" className="about-resume-pdf"/></a>
                         </div>
                     </div>
                 </div>
