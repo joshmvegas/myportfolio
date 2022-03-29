@@ -2,16 +2,16 @@ import './skills.css'
 import { useState, useEffect } from 'react'
 import { BsBoxArrowUpRight } from "react-icons/bs"
 import { GiClick } from "react-icons/gi"
-import ReactImg from '../Media/Images/skills/react.png'
-import JavascriptImg from '../Media/Images/skills/javascript.png'
-import CSSImg from '../Media/Images/skills/css.png'
-import RubyImg from '../Media/Images/skills/ruby.png'
-import ReduxImg from '../Media/Images/skills/redux.png'
-import NodeImg from '../Media/Images/skills/node.png'
-import MongoDBImg from '../Media/Images/skills/mongodb.png'
-import RailsImg from '../Media/Images/skills/rails.png'
-import SQLImg from '../Media/Images/skills/sql.png'
-import FirebaseImg from '../Media/Images/skills/firebase.png'
+import LabImg from '../Media/Images/skills/lab.png'
+import TechImg from '../Media/Images/skills/tech.png'
+import ScienceImg from '../Media/Images/skills/science.png'
+import WritingImg from '../Media/Images/skills/writing.png'
+import FirstAidImg from '../Media/Images/skills/first_aid.png'
+import EmotionImg from '../Media/Images/skills/emotion.png'
+import DisciplineImg from '../Media/Images/skills/discipline.png'
+import LeaderImg from '../Media/Images/skills/leader.png'
+import CompassionImg from '../Media/Images/skills/compassion.png'
+import IntegrityImg from '../Media/Images/skills/integrity.png'
 import FlatironImg from '../Media/Images/flatiron_logo.png'
 import ComptiaImg from '../Media/Images/comptia.png'
 import AWSImg from '../Media/Images/aws.jpg'
@@ -56,69 +56,69 @@ function Skills() {
                     <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="Here are a few of my strongest skillsets." typeSpeed={35} hideCursorAfterText={true}/></span>
                 </p>
                 <div className="skills-box">
-                    <h1 className="skills-title">Frontend</h1>
+                    <h1 className="skills-title">Hard Skills</h1>
                     <div className="skills-content">
                         <div id="ReactSkill" className="skills-item">
-                            <img src={ReactImg} alt="React" />
-                            <h2>React JS</h2>
+                            <img src={LabImg} alt="Lab Operation" />
+                            <h2>Lab Operation</h2>
                             <p>I use React on a daily basis for nearly everything I do</p>
                         </div>
                         <div id="ReactSkill" className="skillSeparator"></div>
                         <div id="ReduxSkill" className="skills-item">
-                            <img src={ReduxImg} alt="Redux" />
-                            <h2>Redux</h2>
+                            <img src={TechImg} alt="Technical Acuity" />
+                            <h2>Technical Acuity</h2>
                             <p>My best friend when building large-scale applications</p>
                         </div>
                         <div id="ReduxSkill" className="skillSeparator"></div>
                         <div id="JavascriptSkill" className="skills-item">
-                            <img src={JavascriptImg} alt="Javascript" />
-                            <h2>Javascript</h2>
+                            <img src={ScienceImg} alt="The Sciences" />
+                            <h2>The Sciences</h2>
                             <p>The duct tape of the Internet and my first love</p>
                         </div>
                         <div id="JavascriptSkill" className="skillSeparator hiddenSkillSeparator"></div>
                         <div id="RubySkill" className="skills-item responsiveSkillsItem1">
-                            <img src={RubyImg} alt="Ruby" />
-                            <h2>Ruby</h2>
+                            <img src={WritingImg} alt="Creative Writing" />
+                            <h2>Creative Writing</h2>
                             <p>Dynamic and simplistic - my first programming language</p>
                         </div>
                         <div id="RubySkill" className="skillSeparator responsiveSkillsItem2"></div>
                         <div id="CSSSkill" className="skills-item responsiveSkillsItem3">
-                            <img src={CSSImg} alt="CSS" />
-                            <h2>CSS</h2>
+                            <img src={FirstAidImg} alt="First Aid" />
+                            <h2>First Aid</h2>
                             <p>I utilize CSS to bring an attractive look and feel to my work</p>
                         </div>
                     </div>
                 </div>
                 <div className="skills-box">
-                    <h1 className="skills-title">Backend</h1>
+                    <h1 className="skills-title">Soft Skills</h1>
                     <div className="skills-content">
                         <div id="NodeSkill" className="skills-item">
-                            <img src={NodeImg} alt="Node JS" />
-                            <h2>Node JS</h2>
+                            <img src={EmotionImg} alt="Emotional Stability" />
+                            <h2>Emotion Stability</h2>
                             <p>I use Node to get data-intensive, real-time backends up and running fast</p>
                         </div>
                         <div id="NodeSkill" className="skillSeparator"></div>
                         <div id="MongoDBSkill" className="skills-item">
-                            <img src={MongoDBImg} alt="MongoDB" />
-                            <h2>MongoDB</h2>
+                            <img src={DisciplineImg} alt="Discipline" />
+                            <h2>Discipline</h2>
                             <p>Mongoose's flexibility allows me to create complex data models with ease</p>
                         </div>
                         <div id="MongoDBSkill" className="skillSeparator"></div>
                         <div id="SQLSkill" className="skills-item">
-                            <img src={SQLImg} alt="SQL" />
-                            <h2>SQL</h2>
+                            <img src={LeaderImg} alt="Leadership" />
+                            <h2>Leadership</h2>
                             <p>I am well versed in SQL development - from queries to schemas</p>
                         </div>
                         <div id="SQLSkill" className="skillSeparator hiddenSkillSeparator"></div>
                         <div id="RubyonRailsSkill" className="skills-item responsiveSkillsItem1">
-                            <img src={RailsImg} alt="Ruby-on-Rails" />
-                            <h2>Ruby-on-Rails</h2>
+                            <img src={CompassionImg} alt="Compassion" />
+                            <h2>Compassion</h2>
                             <p>I have a solid understanding of Rails MVC and Active Record</p>
                         </div>
                         <div id="RubyonRailsSkill" className="skillSeparator responsiveSkillsItem2"></div>
                         <div id="FirebaseSkill" className="skills-item responsiveSkillsItem3">
-                            <img src={FirebaseImg} alt="Firebase" />
-                            <h2>Firebase</h2>
+                            <img src={IntegrityImg} alt="Ethical Integrity" />
+                            <h2>Ethical Integrity</h2>
                             <p>A highly versatile NoSQL database - I'm also adept at its Storage and Auth systems</p>
                         </div>
                     </div>

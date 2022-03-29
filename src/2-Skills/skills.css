@@ -33,7 +33,7 @@
     transition: color .35s ease;
 }
 .skills-header span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     -webkit-animation: contactBounce 1s ease forwards;
     -moz-animation: contactBounce 1s ease forwards;
     -ms-animation: contactBounce 1s ease forwards;
@@ -46,7 +46,7 @@
     display: flex;
     align-items: flex-start;
     font-size: .8rem;
-    width: 95.5rem;
+    width: 87rem;
     height: 2.5rem;
     margin-top: 2rem;
 }
@@ -78,7 +78,7 @@
     width: 90%;
     margin: 5.5rem 0 0;
     padding: 2.5rem 0;
-    border: 1px solid #08fdd8;
+    border: 1px solid #53a7d1;
     background-color: rgba(0, 0, 0, .25);
     color: whitesmoke;
     border-radius: 1rem;
@@ -93,8 +93,8 @@
     position: absolute;
     color: black;
     text-transform: uppercase;
-    border: 2px solid #08fdd8;
-    background-color: #08fdd8;
+    border: 2px solid #53a7d1;
+    background-color: #53a7d1;
     top: -3.25rem;
     left: 50%;
     transform: translateX(-50%);
@@ -125,19 +125,21 @@
 .skills-item {
     height: 17.5rem;
     width: 22.5rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    margin-top: -.75rem;
+    margin-bottom: .75rem;
     text-align: center;
 }
 .skills-item img {
-    height: 7.5rem;
-    width: 7.5rem;
+    height: 8.5rem;
+    width: 8.5rem;
     transition: all .5s ease-in-out;
 }
 .skills-item img:hover {
     transform: rotate(360deg) scale(1.15);
 }
 .skills-item h2 {
-    font-size: 2.65rem;
+    font-size: 2.5rem;
     padding: 1.25rem 0 .65rem;
 }
 .skills-item p {
@@ -199,7 +201,7 @@
     transition: color .35s ease;
 }
 .education-header span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     animation: contactBounce 1s ease forwards;
 }
 #certTitle-active {
@@ -434,7 +436,7 @@
     width: 90%;
 }
 .cert-text-box p a {
-    color: #08fdd8;
+    color: #53a7d1;
     text-decoration: underline;
 }
 .note-wrapper {
@@ -458,20 +460,20 @@
     line-height: 3.5rem;
     text-align: center;
     text-justify: auto;
-    color: #08fdd8;
+    color: #53a7d1;
     font-size: 2.5rem;
     font-weight: 400;
     animation: flickerNote 2s ease infinite;
 }
 @keyframes flickerNote {
-    0% {color: #08fdd8;}
+    0% {color: #53a7d1;}
     50% {color: #00947e;}
-    100% {color: #08fdd8;}
+    100% {color: #53a7d1;}
 }
 @-webkit-keyframes flickerNote {
-    0% {color: #08fdd8;}
+    0% {color: #53a7d1;}
     50% {color: #00947e;}
-    100% {color: #08fdd8;}
+    100% {color: #53a7d1;}
 }
 
 /* RESPONSIVE */

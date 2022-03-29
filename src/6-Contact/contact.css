@@ -271,7 +271,7 @@
     padding: 20px;
     color: #fff;
     margin-top: 5rem;
-    animation: mapBoxPop 1.25s ease 2s forwards;
+    animation: mapBoxPop 1s ease 2s forwards;
     opacity: 0;
 }
 .map-wrapper {
