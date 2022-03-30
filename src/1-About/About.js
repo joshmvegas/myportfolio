@@ -28,22 +28,24 @@ function About() {
                     <span id='letter_a'>a</span>
                     <span id='letter_comma_two'>,</span>
                     <br />
-                    <span id='letter_M'>M</span>
+                    <span id='letter_P'>P</span>
+                    <span id='letter_r'>r</span>
                     <span id='letter_e_two'>e</span>
-                    <span id='letter_d'>d</span>
-                    <span id='letter_i'>i</span>
-                    <span id='letter_c'>c</span>
-                    <span id='letter_a_two'>a</span>
-                    <span id='letter_l_three'>l</span>&nbsp;
-                    <span id='letter_S'>S</span>
-                    <span id='letter_t'>t</span>
-                    <span id='letter_u_two'>u</span>
-                    <span id='letter_d_two'>d</span>
+                    <span id='letter_hyphen_two'>-</span>
+                    <span id='letter_M_two'>M</span>
                     <span id='letter_e_three'>e</span>
+                    <span id='letter_d'>d</span>&nbsp;
+                    <span id='letter_U_two'>U</span>
                     <span id='letter_n'>n</span>
-                    <span id='letter_t_two'>t</span>
+                    <span id='letter_d_two'>d</span>
+                    <span id='letter_e_four'>e</span>
+                    <span id='letter_r_two'>r</span>
+                    <span id='letter_g'>g</span>
+                    <span id='letter_r_three'>r</span>
+                    <span id='letter_a_two'>a</span>
+                    <span id='letter_d_three'>d</span>
                 </h1>
-                <p className='about-left-description'>Pre-Med Undergrad / Science Enthusiast</p>
+                <p className='about-left-description'>Crisis Counselor / Lab Assistant</p>
                 <div className="about-left-button-box">
                     <button onClick={() => navigate('/contact')} className="about-contact-button">Contact me!</button>
                     <div className="about-resume-box">
@@ -57,9 +59,9 @@ function About() {
             <div className="about-right-box">
                 <div className="about-right-title">About me</div>
                 <p className='about-right-description'>
-                I am a driven learner with a passion for medicine and a premedical degree from the accredited Bob Jones University.
-                    <br /><br />Medicine is something with which I've always felt a deep connection. I have high aspirations and constantly strive to outdo myself and ultimately make the world a better place.
-                    <br /><br /> I am excited for the breakthroughs and challenges that await as I experience the dawn of this new journey.
+                I am a driven learner with a passion for medicine and a commitment to Christ. 
+                    <br /><br />Holistic care through physical and emotional service is something with which I've always felt a deep connection. I have high aspirations and am most content when learning from mentors in the classroom and in medical settings.
+                    <br /><br /> I am excited for the breakthroughs and challenges that await as I begin my journey to medical school and beyond.
                 </p>
             </div>
         </div>

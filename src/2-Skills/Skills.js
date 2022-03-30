@@ -53,7 +53,7 @@ function Skills() {
                 </h1>
                 <p className="skills-description">
                     <TypeWriterEffect startDelay={1000} cursorColor="white" text="I love to learn and enjoy applying myself to new things." typeSpeed={35} hideCursorAfterText={true}/>&nbsp;&nbsp;
-                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="Here are a few of my strongest skillsets." typeSpeed={35} hideCursorAfterText={true}/></span>
+                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="Here are a few of my skillsets and values." typeSpeed={35} hideCursorAfterText={true}/></span>
                 </p>
                 <div className="skills-box">
                     <h1 className="skills-title">Hard Skills</h1>
@@ -61,19 +61,19 @@ function Skills() {
                         <div id="ReactSkill" className="skills-item">
                             <img src={LabImg} alt="Lab Operation" />
                             <h2>Lab Operation</h2>
-                            <p>I use React on a daily basis for nearly everything I do</p>
+                            <p>Serving instructors for years has made the lab my second home</p>
                         </div>
                         <div id="ReactSkill" className="skillSeparator"></div>
                         <div id="ReduxSkill" className="skills-item">
                             <img src={TechImg} alt="Technical Acuity" />
                             <h2>Technical Acuity</h2>
-                            <p>My best friend when building large-scale applications</p>
+                            <p>Harmonizing mind and machinery to maximize efficiency</p>
                         </div>
                         <div id="ReduxSkill" className="skillSeparator"></div>
                         <div id="JavascriptSkill" className="skills-item">
                             <img src={ScienceImg} alt="The Sciences" />
                             <h2>The Sciences</h2>
-                            <p>The duct tape of the Internet and my first love</p>
+                            <p>Driven by a deep fascination with biological function</p>
                         </div>
                         <div id="JavascriptSkill" className="skillSeparator hiddenSkillSeparator"></div>
                         <div id="RubySkill" className="skills-item responsiveSkillsItem1">
