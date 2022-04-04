@@ -81,19 +81,24 @@ function Work() {
                         <span>o</span>
                 </h1>
                 <p className="port-description">
-                    <span>A&nbsp;</span>
-                    <span>gallery&nbsp;</span>
-                    <span>of&nbsp;</span>
-                    <span>recent&nbsp;</span>
-                    <span>projects&nbsp;</span>
-                    <span>I've&nbsp;</span>
-                    <span>built.&nbsp;</span>
-                    <span onClick={() => navigate('/contact')}>Contact me</span>
-                    <span>&nbsp;for&nbsp;</span>
-                    <span>a&nbsp;</span>
-                    <span>complete&nbsp;</span>
-                    <span>code&nbsp;</span>
-                    <span>walkthrough.&nbsp;</span>
+                    <span>'Tell&nbsp;</span>
+                    <span>me&nbsp;</span>
+                    <span>and&nbsp;</span>
+                    <span>I&nbsp;</span>
+                    <span>forget,&nbsp;</span>
+                    <span>teach&nbsp;</span>
+                    <span>me&nbsp;</span>
+                    <span>and&nbsp;</span>
+                    <span>I&nbsp;</span>
+                    <span>may&nbsp;</span>
+                    <span>remember,&nbsp;</span>
+                    <span>involve&nbsp;</span>
+                    <span>me&nbsp;</span>
+                    <span>and&nbsp;</span>
+                    <span>I&nbsp;</span>
+                    <span>learn.'&nbsp;</span>
+                    <span>-Benjamin&nbsp;</span>
+                    <span>Franklin&nbsp;</span>
                 </p>
                 <div className="port-items">
                     <div className="port-item" id='portItem1' onMouseEnter={() => setPort1(true)} onMouseLeave={() => setPort1(false)}>

@@ -52,8 +52,8 @@ function Skills() {
                     <span>s</span>
                 </h1>
                 <p className="skills-description">
-                    <TypeWriterEffect startDelay={1000} cursorColor="white" text="I love to learn and enjoy applying myself to new things." typeSpeed={35} hideCursorAfterText={true}/>&nbsp;&nbsp;
-                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="Here are a few of my skillsets and values." typeSpeed={35} hideCursorAfterText={true}/></span>
+                    <TypeWriterEffect startDelay={1000} cursorColor="white" text="'Live as if you were to die tommorrow." typeSpeed={35} hideCursorAfterText={true}/>&nbsp;&nbsp;
+                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={4000} cursorColor="white" text="Learn as if you were to live forever.' -Mahatma Ghandi" typeSpeed={35} hideCursorAfterText={true}/></span>
                 </p>
                 <div className="skills-box">
                     <h1 className="skills-title">Hard Skills</h1>
@@ -61,7 +61,7 @@ function Skills() {
                         <div id="ReactSkill" className="skills-item">
                             <img src={LabImg} alt="Lab Operation" />
                             <h2>Lab Operation</h2>
-                            <p>Serving instructors for years has made the lab my second home</p>
+                            <p>Serving here for years has made the lab my second home</p>
                         </div>
                         <div id="ReactSkill" className="skillSeparator"></div>
                         <div id="ReduxSkill" className="skills-item">
@@ -79,13 +79,13 @@ function Skills() {
                         <div id="RubySkill" className="skills-item responsiveSkillsItem1">
                             <img src={WritingImg} alt="Creative Writing" />
                             <h2>Creative Writing</h2>
-                            <p>Dynamic and simplistic - my first programming language</p>
+                            <p>Words are my obsession - so simple, yet so powerful</p>
                         </div>
                         <div id="RubySkill" className="skillSeparator responsiveSkillsItem2"></div>
                         <div id="CSSSkill" className="skills-item responsiveSkillsItem3">
                             <img src={FirstAidImg} alt="First Aid" />
                             <h2>First Aid</h2>
-                            <p>I utilize CSS to bring an attractive look and feel to my work</p>
+                            <p>I believe in effective preparation to minimize tragedy</p>
                         </div>
                     </div>
                 </div>
@@ -95,31 +95,31 @@ function Skills() {
                         <div id="NodeSkill" className="skills-item">
                             <img src={EmotionImg} alt="Emotional Stability" />
                             <h2>Emotion Stability</h2>
-                            <p>I use Node to get data-intensive, real-time backends up and running fast</p>
+                            <p>A commitment to remaining capable and productive through adversity</p>
                         </div>
                         <div id="NodeSkill" className="skillSeparator"></div>
                         <div id="MongoDBSkill" className="skills-item">
                             <img src={DisciplineImg} alt="Discipline" />
                             <h2>Discipline</h2>
-                            <p>Mongoose's flexibility allows me to create complex data models with ease</p>
+                            <p>Critical for every area of my life, from academics to diet & fitness</p>
                         </div>
                         <div id="MongoDBSkill" className="skillSeparator"></div>
                         <div id="SQLSkill" className="skills-item">
                             <img src={LeaderImg} alt="Leadership" />
                             <h2>Leadership</h2>
-                            <p>I am well versed in SQL development - from queries to schemas</p>
+                            <p>See one, do one, teach one. A visionary development of myself and others</p>
                         </div>
                         <div id="SQLSkill" className="skillSeparator hiddenSkillSeparator"></div>
                         <div id="RubyonRailsSkill" className="skills-item responsiveSkillsItem1">
                             <img src={CompassionImg} alt="Compassion" />
                             <h2>Compassion</h2>
-                            <p>I have a solid understanding of Rails MVC and Active Record</p>
+                            <p>Not just a quality, but a practice of healing essential for any physician</p>
                         </div>
                         <div id="RubyonRailsSkill" className="skillSeparator responsiveSkillsItem2"></div>
                         <div id="FirebaseSkill" className="skills-item responsiveSkillsItem3">
                             <img src={IntegrityImg} alt="Ethical Integrity" />
                             <h2>Ethical Integrity</h2>
-                            <p>A highly versatile NoSQL database - I'm also adept at its Storage and Auth systems</p>
+                            <p>The best reputation is an incorruptible one, for a man is what he does</p>
                         </div>
                     </div>
                 </div>
@@ -171,17 +171,17 @@ function Skills() {
                             <h3>Greenville, South Carolina</h3>
                             <h1>B.S. Pre-Med/Pre-Dental</h1>
                             <h4>BOB JONES UNIVERSITY</h4>
-                            <p>A highly acknowledged Software Engineering trade school and proven leader in tech education.</p>
+                            <p>A highly acknowledged & accredited liberal arts university and proven leader in premedical education.</p>
                             <div className="flatiron-description-box">
                                 <p>Some things I did as a student:</p>
                                 <ul>
-                                    <li>Studied coding best practices</li>
-                                    <li>Collaborated on projects as a team</li>
-                                    <li>Engaged in pair programming with my peers</li>
-                                    <li>Learned proper ways to tackle complex problems</li>
+                                    <li>Solidified a strong understanding of the sciences</li>
+                                    <li>Collaborated on papers and presentations with a team</li>
+                                    <li>Engaged in medical ethics training</li>
+                                    <li>Built a thorough framework for critical thinking</li>
                                 </ul>
                             </div>
-                            <p>I spent 16 weeks full time & in-person at Flatiron School during which I actively improved my skills with 500+ hours of live coding experience.</p>
+                            <p>By May 2023, I will have spent 4 years full time at Bob Jones University. I am forever indebted to the devoted peers and professors that make this experience so valuable.</p>
                         </div>
                     </div>
                     <div ref={ed2Ref} className="cert-item" id={ed2InView ? "cert2-active" : undefined} onMouseEnter={() => setMouse2(true)} onMouseLeave={() => setMouse2(false)}>
