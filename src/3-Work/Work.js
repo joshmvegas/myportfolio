@@ -2,7 +2,7 @@ import './work.css'
 import './otheritem.css'
 import OtherItem from './OtherItem'
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import { BsArrowRight, BsBoxArrowUpRight } from 'react-icons/bs'
 import Modal from './Modal/Modal'
 import { useInView } from 'react-intersection-observer'
@@ -31,7 +31,7 @@ import NewYearsLogo from '../Media/Images/other-work-icons/NewYearsTimerLogo.png
 
 function Work() {
     useEffect(() => {window.scrollTo(0, 0)}, [])
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     const [port1, setPort1] = useState(false)
     const [port2, setPort2] = useState(false)
     const [port3, setPort3] = useState(false)

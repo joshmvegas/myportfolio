@@ -8,12 +8,12 @@
 
 /* LEFT SIDE */
 .about-left-box {
-    padding-left: 5.5rem;
+    padding-left: 4.5rem;
 }
 .about-left-title {
     position: relative;
-    font-size: 7.5rem;
-    line-height: 8.5rem;
+    font-size: 6.5rem;
+    line-height: 8.25rem;
 }
 .about-left-title span {
     display: inline-block;
@@ -56,20 +56,22 @@
 #letter_u {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: .65s;}
 #letter_a {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: .7s;}
 #letter_comma_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: .75s;}
-#letter_M {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.3s;}
-#letter_e_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.35s;}
-#letter_d {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.4s;}
-#letter_i {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.45s;}
-#letter_c {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.5s;}
-#letter_a_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.55s;}
-#letter_l_three {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.65s;}
-#letter_S {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.7s;}
-#letter_t {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.75s;}
-#letter_u_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.8s;}
-#letter_d_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.85s;}
-#letter_e_three {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.9s;}
-#letter_n {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 2s;}
-#letter_t_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 2.05s;}
+#letter_P {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.3s;}
+#letter_r {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.35s;}
+#letter_e_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.4s;}
+#letter_hyphen_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.45s;}
+#letter_M_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.5s;}
+#letter_e_three {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.55s;}
+#letter_d {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.65s;}
+#letter_U_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.7s;}
+#letter_n {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.75s;}
+#letter_d_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.8s;}
+#letter_e_four {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.85s;}
+#letter_r_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 1.9s;}
+#letter_g {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 2s;}
+#letter_r_three {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 2.05s;}
+#letter_a_two {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 2.1s;}
+#letter_d_three {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: 2.15s;}
 @keyframes aboutTitleAfterFade {
     100% {opacity: 1}
 }
@@ -176,6 +178,22 @@
     transform: scale(.95);
 }
 
+/* MIDDLE */
+.about-middle-separator {
+    height: 0;
+    width: 1px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    box-shadow: rgba(15, 15, 15, .65) 0px 2px 4px;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255), rgba(255, 255, 255, 0));
+    opacity: .35;
+    border-radius: 1rem;
+    animation: middleAboutAcross 4s ease forwards;
+}
+@keyframes middleAboutAcross {
+    100% {height: 85vh}
+}
+
 
 /* RIGHT SIDE */
 @keyframes aboutRightSideFade {
@@ -185,23 +203,33 @@
     100% {opacity: 1}
 }
 .about-right-box {
-    padding-right: 6.5rem;
-    width: 42.5%;
+    padding-right: 4.5rem;
+    width: 45%;
     animation: aboutRightSideFade 1.5s ease 2s forwards;
     opacity: 0;
 }
 .about-right-title {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #53a7d1;
     font-size: 5.35rem;
     line-height: 10rem;
     font-weight: 500;
 }
+.about-right-title img {
+    max-height: 27.5rem;
+    border-radius: 5rem;
+    border: 5px solid #356e8a;
+    margin-bottom: 1.5rem;
+}
 .about-right-description {
     margin-top: 2rem;
     position: relative;
-    font-size: 1.75rem;
+    font-size: 1.85rem;
     line-height: 1.55;
+    text-align: center;
 }
 .about-right-description span {
     text-decoration: underline;
@@ -305,11 +333,22 @@
     }
     .about-right-box {
         padding-right: 0rem;
-        width: 40rem;
+        width: 60rem;
         margin: 0 0 2.5rem;
     }
     .about-right-description {
         font-size: 1.8rem;
+    }
+    .about-middle-separator {
+        height: 2px;
+        width: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 5rem;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255), rgba(255, 255, 255, 0));
+    }
+    @keyframes middleAboutAcross {
+        100% {width: 80vw}
     }
 }
 @media (max-width: 650px) {
@@ -329,6 +368,7 @@
     }
     .about-right-description {
         font-size: 1.4rem;
+        width: 100%;
     }
     .about-contact-button {
         font-size: 12px;

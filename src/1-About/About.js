@@ -2,6 +2,7 @@ import './about.css'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import PDF_Icon from '../Media/Images/pdf.png'
+import PortraitImg from '../Media/Images/portrait.png'
 
 function About() {
     const navigate = useNavigate()
@@ -45,7 +46,7 @@ function About() {
                     <span id='letter_a_two'>a</span>
                     <span id='letter_d_three'>d</span>
                 </h1>
-                <p className='about-left-description'>Crisis Counselor / Lab Assistant</p>
+                <p className='about-left-description'>Lab Assistant / Crisis Counselor</p>
                 <div className="about-left-button-box">
                     <button onClick={() => navigate('/contact')} className="about-contact-button">Contact me!</button>
                     <div className="about-resume-box">
@@ -56,12 +57,12 @@ function About() {
                     </div>
                 </div>
             </div>
+            <div className="about-middle-separator"></div>
             <div className="about-right-box">
-                <div className="about-right-title">About me</div>
+                <div className="about-right-title"><img src={PortraitImg} alt="Portrait" /></div>
                 <p className='about-right-description'>
-                I'm a driven learner with a passion for medicine and a commitment to Christ. 
-                    <br /><br />Holistic care through physical and emotional service is something with which I've always felt a deep connection. I have high aspirations and am most content when learning from mentors in the classroom and in medical settings.
-                    <br /><br /> I am excited for the breakthroughs and challenges that await as I begin my journey to medical school and beyond.
+                I'm a driven learner with a passion for medicine and a commitment to Christ. Health care is something with which I've always felt a deep connection. 
+                <br /><br /> I have high aspirations and most content when learning from mentors in the classroom and in medical settings. I am excited for the breakthroughs and challenges that await as I begin my journey to medical school and beyond.
                 </p>
             </div>
         </div>

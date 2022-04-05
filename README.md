@@ -1,10 +1,7 @@
-### *(currently redacted)*
+# Joshua Venegas - Medical Student
+
+
+Email - venegasjoshua1@gmail.com
 <br>
-
-# David Venegas - a Fullstack Web Developer
-
-
-Email - venegasdavidm@gmail.com
-<br>
-LinkedIn - https://www.linkedin.com/in/david-venegas-m
+LinkedIn - https://www.linkedin.com/in/servantforlife/
 <br>
