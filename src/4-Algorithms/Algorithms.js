@@ -18,9 +18,9 @@ function Algorithms() {
                         <span>s</span>
                 </h1>
                 <p className="algo-description">
-                    <div id='algo-slide1'>Algorithms improve my ability to solve problems.&nbsp;&nbsp;</div> 
+                    <div id='algo-slide1'>"Don't follow where the path may lead.&nbsp;&nbsp;</div> 
                     <div id='algo-slide2'> 
-                        <span id='algo-child-slide'>Here are a few of my favorites.</span>
+                        <span id='algo-child-slide'>Go instead where there is no path and leave a trail." -Ralph Waldo Emerson.</span>
                     </div>
                 </p>
                 <div className="algo-wrapper">
