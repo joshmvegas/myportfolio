@@ -43,14 +43,12 @@
     100% {opacity: 1; margin-right: 0}
 }
 .modal-video-wrapper {
-    width: 50%;
+    width: 35%;
     height: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    animation: modalFade 1s ease-in-out .85s forwards;
-    opacity: 0;
 }
 @keyframes modalFade {
     100% {opacity: 1}
@@ -74,20 +72,40 @@
 .modal-video-title span:last-of-type {
     font-size: 3rem;
     font-weight: 600;
-    color: #08fdd8;
+    color: #53a7d1;
 }
 #modal-trade {
     display: inline-block;
     font-size: 3.25rem;
 }
 .iframe-wrapper {
-    width: 50rem;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: -10rem;
 }
-.iframe-wrapper iframe {
-    width: 100%;
-    height: 32.5rem;
-    border-radius: .5rem;
-    margin-bottom: -1rem;
+.iframe-wrapper img {
+    margin: .5rem 0;
+    border-radius: 1rem;
+}
+.iframe-wrapper img:nth-child(1) {
+    width: 31.5rem;
+    opacity: 0;
+    animation: modalFade 1s ease-in-out 1s forwards;
+}
+.iframe-wrapper img:nth-child(2) {
+    width: 31.5rem;
+    margin-left: 12rem;
+    opacity: 0;
+    animation: modalFade 1s ease-in-out 1.3s forwards;
+}
+.iframe-wrapper img:nth-child(3) {
+    width: 31.5rem;
+    opacity: 0;
+    animation: modalFade 1s ease-in-out 1.6s forwards;
 }
 .modal-tech-wrapper {
     background-color: #373737;
@@ -101,7 +119,7 @@
     font-size: 2.25rem;
     font-weight: 600;
     padding: .2rem 0 .8rem;
-    color: #08fdd8;
+    color: #53a7d1;
 }
 .modal-techs {
     font-size: 1.65rem;
@@ -118,12 +136,12 @@
 }
 .modal-text-wrapper {
     border-radius: .5rem;
-    width: 45%;
+    width: 55%;
     height: 95%;
     margin-left: 2.5%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     background-color: #373737;
@@ -150,77 +168,20 @@
     justify-content: space-between;
     margin-top: 3rem;
 }
-.modal-title-wrapper img {
-    height: 5.25rem;
-    width: 5.25rem;
-    margin-right: 1.65rem;
-}
 .modal-title {
-    font-size: 4.25rem;
-}
-.modal-links {
-    position: relative;
-    padding: .5rem 0 1rem;
-    margin-right: 2rem;
-}
-.modal-link1 {
-    font-size: 1.85rem;
-    font-weight: 300;
-    color: white;
-    text-decoration: underline;
-}
-.modal-link2 {
-    position: absolute;
-    color: white;
-    font-size: 2.65rem;
-    transition: all .25s ease;
-}
-.modal-link2:hover {
-    transform: scale(1.125);
-}
-.modal-tools-wrapper {
-    padding: 1.25rem 0 0;
-    margin-bottom: -1rem;
-}
-.modal-tool {
-    height: 3.25rem;
-    width: 3.25rem;
-    margin: 0 .65rem;
-    color: #08fdd8;
-}
-.modal-tool:hover {
-    animation: toolBounce 1s ease-in-out;
-}
-@keyframes toolBounce {
-    from {transform: scale3d(1, 1, 1)}
-    30% {transform: scale3d(1.25, 0.75, 1)}
-    40% {transform: scale3d(0.75, 1.2, 1)}
-    50% {transform: scale3d(1.15, 0.85, 1)}
-    65% {transform: scale3d(.95, 1.05, 1)}
-    75% {transform: scale3d(1.05, .95, 1)}
-    to {transform: scale3d(1, 1, 1)}
-}
-@-webkit-keyframes toolBounce {
-    from {-webkit-transform: scale3d(1, 1, 1)}
-    30% {-webkit-transform: scale3d(1.25, 0.75, 1)}
-    40% {-webkit-transform: scale3d(0.75, 1.2, 1)}
-    50% {-webkit-transform: scale3d(1.15, 0.85, 1)}
-    65% {-webkit-transform: scale3d(.95, 1.05, 1)}
-    75% {-webkit-transform: scale3d(1.05, .95, 1)}
-    to {-webkit-transform: scale3d(1, 1, 1)}
+    font-size: 4.5rem;
 }
 .modal-body {
     align-self: center;
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
     width: 90%;
 }
 .modal-description {
     font-size: 1.8rem;
     line-height: 2.85rem;
     height: 38.5%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .modal-features-header {
     font-size: 2rem;
@@ -233,7 +194,7 @@
     text-align: center;
 }
 .modal-features {
-    padding: 1rem 0 2rem;
+    padding: 1.25rem 0 2.5rem;
     border-bottom: 1px solid gray;
     padding-left: 5rem;
 }

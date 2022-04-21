@@ -35,7 +35,7 @@
     transition: color .35s ease;
 }
 .port-header span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     animation: contactBounce 1s ease forwards
 }
 .port-description {
@@ -82,7 +82,7 @@
 }
 
 #port-contact-slide span {
-    color: #08fdd8;
+    color: #53a7d1;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -111,7 +111,7 @@
     transition: border .5s ease-in-out;
 }
 .port-item:hover {
-    border: 2px solid #08fdd8a0;
+    border: 2px solid #53a7d1a0;
 }
 .port-gif-box {
     position: relative;
@@ -222,7 +222,7 @@
     border-radius: 0 .5rem .5rem 0;
 }
 .port-title {
-    font-size: 4rem;
+    font-size: 3.25rem;
     font-weight: 400;
 }
 .port-title span {
@@ -230,15 +230,15 @@
     padding-left: 2px;
 }
 .port-title-site {
-    color: #08fdd8;
+    color: #53a7d1;
     font-size: 1.65rem;
     padding-top: .75rem;
 }
 .port-headline {
-    font-size: 1.85rem;
-    font-weight: 500;
-    color: #888;
-    line-height: 1.5;
+    font-size: 1.65rem;
+    font-weight: 400;
+    color: #bbb;
+    line-height: 1.25;
     padding: 2rem;
 }
 .port-btn-box {
@@ -255,7 +255,7 @@
     font-size: 1.85rem;
     color: white;
     background-color: black;
-    outline: 1px solid #08fdd8;
+    outline: 1px solid #53a7d1;
     border: none;
     border-radius: .5rem;
     cursor: pointer;
@@ -324,7 +324,7 @@
     transition: color .35s ease;
 }
 .other-header span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     animation: contactBounce 1s ease forwards
 }
 .other-description {
@@ -350,7 +350,7 @@
     cursor: pointer;
 }
 .ending-work-this-wrapper {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .ending-work-this {
     position: relative;
@@ -369,13 +369,13 @@
     line-height: 3.5rem;
     text-align: center;
     text-justify: auto;
-    color: #08fdd8;
+    color: #53a7d1;
     font-size: 2.5rem;
     font-weight: 400;
     animation: flickerNote 2s ease infinite;
 }
 .ending-work-this span:last-of-type a {
-    color: #08fdd8;
+    color: #53a7d1;
     text-decoration: underline;
     cursor: pointer;
 }

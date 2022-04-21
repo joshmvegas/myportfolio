@@ -1,7 +1,7 @@
 import './otheritem.css'
+import ImagesIcon from '../Images/images.png'
 import { useState } from 'react'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
-import { FaGithub } from "react-icons/fa"
 import { useInView } from 'react-intersection-observer'
 
 function OtherItem({data}) {
@@ -16,8 +16,8 @@ function OtherItem({data}) {
                 <h1 id={data.largeTitle ? "smaller-other-title" : undefined} ref={otherItemRef}>{data.title}</h1>
             </div>
             <div className="other-item-bottom">
-                <a className='other-item-link' href={data.link} target="_blank" rel="noreferrer">Check it out &nbsp;<BsBoxArrowUpRight id='other-link-icon'/></a>
-                <a className='other-item-github' href={data.github} target="_blank" rel="noreferrer"><FaGithub id='other-item-github'/></a>
+                <a className='other-item-link' href={data.link} target="_blank" rel="noreferrer">Daily Journal &nbsp;<BsBoxArrowUpRight id='other-link-icon'/></a>
+                <a className='other-item-github' href={data.github} target="_blank" rel="noreferrer"><img src={ImagesIcon} alt='ImageIcon' id='other-item-github'/></a>
             </div>
         </div>
     )

@@ -1,8 +1,8 @@
 import './about.css'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import PDF_Icon from '../Media/Images/pdf.png'
-import PortraitImg from '../Media/Images/portrait.png'
+import PDF_Icon from '../Images/pdf.png'
+import PortraitImg from '../Images/portrait.png'
 
 function About() {
     const navigate = useNavigate()

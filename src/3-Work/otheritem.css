@@ -15,7 +15,7 @@
 }
 /* CARD TOP */
 .other-item-top {
-    background: #08fdd8;
+    background: #53a7d1;
     padding: 1px;
     height: .8rem;
     transition: all 0.5s ease;
@@ -36,6 +36,11 @@
     width: 7.5rem;
     height: 7.5rem;
     transform: scale(0);
+    transition: all .35s ease-in-out;
+    border-radius: .5rem;
+}
+.other-item-top:hover img {
+    box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.5);
 }
 #otherItem-active {
     -webkit-animation: bounceInOther .65s ease-in-out .2s forwards;
@@ -53,7 +58,7 @@
     100% {-webkit-transform: scale(1)}
 }
 .other-item-top h1 {
-    color: #08fdd8;
+    color: #53a7d1;
     text-align: center;
     font-size: 2.35rem;
     font-weight: 700;
@@ -91,10 +96,10 @@
     font-weight: 400;
     color: white;
     width: fit-content;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     color: white;
     background-color: transparent;
-    outline: 1px solid #08fdd8;
+    outline: 1px solid #53a7d1;
     border: none;
     border-radius: .5rem;
     cursor: pointer;
@@ -102,7 +107,7 @@
     overflow: hidden;
 }
 .other-item-link:after {
-    background: #08fdd8;
+    background: #53a7d1;
     content: "";
     height: 250px;
     left: -400px;
@@ -129,11 +134,10 @@
     transform: translateX(-83.5%);
 }
 #other-item-github {
-    font-size: 2.75rem;
-    border-radius: 50%;
+    height: 4rem;
     color: white;
-    margin-top: .25rem;
-    margin-bottom: -.25rem;
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
     cursor: pointer;
     transition: all .3s ease;
 }

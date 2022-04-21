@@ -2,7 +2,7 @@ import './navbar.css'
 import { NavLink } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-import Logo from '../Media/Images/logo.png'
+import Logo from '../Images/logo.png'
 import { Fragment } from 'react/cjs/react.production.min'
 import { useEffect, useState } from 'react'
 

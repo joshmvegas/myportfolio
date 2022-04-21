@@ -1,9 +1,9 @@
 import './blogs.css'
 import { useEffect, useState } from 'react'
-import ReactBanner from '../Media/Images/blog-banners/react-banner.jpg'
-import JavascriptBanner from '../Media/Images/blog-banners/javascript-banner.jpg'
-import RubyBanner from '../Media/Images/blog-banners/ruby-banner.png'
-import MediumClap from '../Media/Images/medium-clap.png'
+import ReactBanner from '../Images/blog-banners/react-banner.jpg'
+import JavascriptBanner from '../Images/blog-banners/javascript-banner.jpg'
+import RubyBanner from '../Images/blog-banners/ruby-banner.png'
+import MediumClap from '../Images/medium-clap.png'
 
 function Blogs() {
     useEffect(() => {window.scrollTo(0, 0)}, [])
