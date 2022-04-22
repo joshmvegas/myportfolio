@@ -164,7 +164,7 @@ function Skills() {
                             <GiClick id={mouse1 ? "flatiron-pointer" : "flatiron-pointer-gone"}/>
                             <div className="flatiron-img-hover-box">
                                 <h1 style={cert ? {opacity: "1"} : {opacity: "0"}}>Click to hide certificate</h1>
-                                <h1 style={cert ? {opacity: "0"} : {opacity: "1"}}>Click to view certificate</h1>
+                                <h1 style={cert ? {opacity: "0"} : {opacity: "1"}}>Click to change</h1>
                             </div>
                         </div>
                         <div className="flatiron-text-box">
