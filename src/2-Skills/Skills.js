@@ -196,8 +196,8 @@ function Skills() {
                             </div>
                         </a>
                         <div className="cert-text-box">
-                            <h1 className='cert-title'>Certified Cloud Practitioner</h1>
-                            <p>The foundational accreditation from the world's largest cloud provider. Cloud technology is expanding at an incredible pace and I intend to earn many more qualifications in the near future.</p>
+                            <h1 className='cert-title'>Professional Rescuer - Lifeguarding</h1>
+                            <p>A foundational accreditation from the world's largest non-profit emergency assistance organization. This certification includes basic life support training with first aid, CPR, and AED.</p>
                         </div>
                     </div>
                     <div ref={ed3Ref} className="cert-item" id={ed3InView ? "cert3-active" : undefined} onMouseEnter={() => setMouse3(true)} onMouseLeave={() => setMouse3(false)}>
@@ -212,8 +212,8 @@ function Skills() {
                             </div>
                         </a>
                         <div className="cert-text-box">
-                            <h1 className='cert-title'>CompTiA Security +</h1>
-                            <p>A globally recognized certification that validates the baseline skills necessary to perform core security functions. Cybersecurity is a vital aspect of the modern internet and something I care deeply about.</p>
+                            <h1 className='cert-title'>Crisis Counselor</h1>
+                            <p>Issued by an international crisis hotline, this certification involves 30 hours of training in empathetic communication. I've learned many valuable lessons for patient interaction in 400+ hours & counting with CTL.</p>
                         </div>
                     </div>
                     <div ref={ed4Ref} className="cert-item" id={ed4InView ? "cert4-active" : undefined} onMouseEnter={() => setMouse4(true)} onMouseLeave={() => setMouse4(false)}>
@@ -228,8 +228,8 @@ function Skills() {
                             </div>
                         </a>
                         <div className="cert-text-box">
-                            <h1 className='cert-title'>Jira Fundamentals</h1>
-                            <p>I earned a perfect score on Atlassian University's Jira Fundamentals certification. Atlassian is the leader in SCRUM/agile managment software with their products used by <a href='https://www.linkedin.com/pulse/83-fortune-500-companies-use-atlassian-products-divyanshu-raj-/' target="_blank" rel="noreferrer">83%</a> of Fortune 500 companies.</p>
+                            <h1 className='cert-title'>QPR Suicide Prevention</h1>
+                            <p>Question, Persuade, Refer. By partnering with Mental Health America to adress mental health conditions in their earliest stages, I work to avert the most critical situations that can lead to irreversible decisions</p>
                         </div>
                     </div>
                 </div>
