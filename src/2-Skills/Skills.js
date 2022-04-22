@@ -169,7 +169,7 @@ function Skills() {
                         </div>
                         <div className="flatiron-text-box">
                             <h3>Greenville, South Carolina</h3>
-                            <h1>B.S. Pre-Med/Pre-Dental</h1>
+                            <h1>B.S. Pre-Med/Pre-Dent</h1>
                             <h4>BOB JONES UNIVERSITY</h4>
                             <p>A highly acknowledged & accredited liberal arts university and proven leader in premedical education.</p>
                             <div className="flatiron-description-box">
