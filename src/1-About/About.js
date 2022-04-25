@@ -29,22 +29,21 @@ function About() {
                     <span id='letter_a'>a</span>
                     <span id='letter_comma_two'>,</span>
                     <br />
-                    <span id='letter_P'>P</span>
-                    <span id='letter_r'>r</span>
-                    <span id='letter_e_two'>e</span>
-                    <span id='letter_hyphen_two'>-</span>
-                    <span id='letter_M_two'>M</span>
-                    <span id='letter_e_three'>e</span>
-                    <span id='letter_d'>d</span>&nbsp;
-                    <span id='letter_U_two'>U</span>
-                    <span id='letter_n'>n</span>
-                    <span id='letter_d_two'>d</span>
-                    <span id='letter_e_four'>e</span>
-                    <span id='letter_r_two'>r</span>
-                    <span id='letter_g'>g</span>
-                    <span id='letter_r_three'>r</span>
-                    <span id='letter_a_two'>a</span>
-                    <span id='letter_d_three'>d</span>
+                    <span id='letter_P'>B</span>
+                    <span id='letter_r'>.</span>
+                    <span id='letter_e_two'>S</span>
+                    <span id='letter_hyphen_two'>.</span>&nbsp;
+                    <span id='letter_M_two'>P</span>
+                    <span id='letter_e_three'>r</span>
+                    <span id='letter_d'>e</span>
+                    <span id='letter_U_two'>-</span>
+                    <span id='letter_n'>M</span>
+                    <span id='letter_d_two'>e</span>
+                    <span id='letter_e_four'>d</span>
+                    <span id='letter_r_two'>i</span>
+                    <span id='letter_g'>c</span>
+                    <span id='letter_r_three'>a</span>
+                    <span id='letter_a_two'>l</span>
                 </h1>
                 <p className='about-left-description'>Lab Assistant / Crisis Counselor</p>
                 <div className="about-left-button-box">

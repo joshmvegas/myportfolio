@@ -3,7 +3,7 @@
     margin: 1rem auto 0;
     height: 17.5rem;
     width: 28.5rem;
-    background-color: #252525;
+    background-color: #323232;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     border-radius: .25rem;
     transition: all 0.5s;
@@ -36,11 +36,6 @@
     width: 7.5rem;
     height: 7.5rem;
     transform: scale(0);
-    transition: all .35s ease-in-out;
-    border-radius: .5rem;
-}
-.other-item-top:hover img {
-    box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.5);
 }
 #otherItem-active {
     -webkit-animation: bounceInOther .65s ease-in-out .2s forwards;

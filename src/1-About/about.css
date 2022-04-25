@@ -8,7 +8,7 @@
 
 /* LEFT SIDE */
 .about-left-box {
-    padding-left: 4.5rem;
+    padding-left: 5.25rem;
 }
 .about-left-title {
     position: relative;
@@ -183,12 +183,12 @@
     height: 0;
     width: 1px;
     margin-top: 2.5rem;
-    margin-left: 2rem;
+    margin-left: .75rem;
     box-shadow: rgba(15, 15, 15, .65) 0px 2px 4px;
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255), rgba(255, 255, 255, 0));
     opacity: .35;
     border-radius: 1rem;
-    animation: middleAboutAcross 4s ease forwards;
+    animation: middleAboutAcross 4s ease .5s forwards;
 }
 @keyframes middleAboutAcross {
     100% {height: 85vh}
@@ -203,7 +203,7 @@
     100% {opacity: 1}
 }
 .about-right-box {
-    padding-right: 4.5rem;
+    padding-right: 6rem;
     width: 45%;
     animation: aboutRightSideFade 1.5s ease 2s forwards;
     opacity: 0;

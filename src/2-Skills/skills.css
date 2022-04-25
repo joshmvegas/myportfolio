@@ -439,42 +439,6 @@
     color: #53a7d1;
     text-decoration: underline;
 }
-.note-wrapper {
-    margin: 5rem 0 0;
-    width: 90%;
-}
-.note-wrapper p {
-    position: relative;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.65rem;
-    font-weight: 300;
-    line-height: 1.4;
-    color: #bbb;
-}
-.note-wrapper p span {
-    position: absolute;
-    top: -1rem;
-    left: -2rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-    text-justify: auto;
-    color: #53a7d1;
-    font-size: 2.5rem;
-    font-weight: 400;
-    animation: flickerNote 2s ease infinite;
-}
-@keyframes flickerNote {
-    0% {color: #53a7d1;}
-    50% {color: #00947e;}
-    100% {color: #53a7d1;}
-}
-@-webkit-keyframes flickerNote {
-    0% {color: #53a7d1;}
-    50% {color: #00947e;}
-    100% {color: #53a7d1;}
-}
 
 /* RESPONSIVE */
 @media (max-width: 1400px) {
