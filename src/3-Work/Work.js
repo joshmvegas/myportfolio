@@ -104,9 +104,9 @@ function Work() {
                         <div className="port-text-box">
                             <h1 className="port-title">MedEx Academy</h1>
                             <p className="port-headline">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga cum voluptatibus magnam recusandae voluptas totam beatae ullam fugiat sint quos porro.
+                                Devoted to developing medical professionals with Prisma Health at the USC School of Medicine in Greenville, this summer experience both challenged and inspired me.
                                 <br />
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga cum voluptatibus magnam recusandae voluptas totam beatae ullam fugiat sint quos porro.
+                                The connections and relationships that I developed here have deepened my respect and love for medicine while helping me recognize the value of peer and mentor support.
                             </p>
                             <div className="port-btn-box">
                                 <div className='port-btn-more' onClick={() => handleOpenModal(1)}>
