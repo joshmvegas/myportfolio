@@ -56,7 +56,7 @@ function Work() {
                     <span>and&nbsp;</span>
                     <span>I&nbsp;</span>
                     <span>learn.'&nbsp;</span>
-                    <span>&nbsp;— Benjamin&nbsp;</span>
+                    <span>&nbsp;—Benjamin&nbsp;</span>
                     <span>Franklin&nbsp;</span>
                 </p>
                 <div className="port-items">

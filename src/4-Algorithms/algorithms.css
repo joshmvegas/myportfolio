@@ -46,6 +46,11 @@
     margin-left: -340px;
     animation: slidein 2.5s ease 1.5s forwards;
 }
+#ralph_waldo_emerson {
+    opacity: 0;
+    animation: showup 2s ease 4.25s forwards;
+}
+
 @keyframes showup {
     0% {opacity: 0}
     100% {opacity: 1}
@@ -58,21 +63,7 @@
 @keyframes reveal {
     0% {opacity: 0; width: 0px}
     50% {opacity: 1; width: 0px}
-    100% {width: 260px}
-}
-@-webkit-keyframes showup {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-@-webkit-keyframes slidein {
-    0% {margin-left: -800px}
-    50% {margin-left: -800px}
-    100% {margin-left: 0px}
-}
-@-webkit-keyframes reveal {
-    0% {opacity: 0; width: 0px}
-    50% {opacity: 1; width: 0px}
-    100% {width: 260px}
+    100% {width: 630px}
 }
 .algo-wrapper {
     display: grid;
@@ -94,9 +85,6 @@
     opacity: 0;
 }
 @keyframes algoFadeUp {
-    100% {opacity: 1; margin-top: 0; margin-bottom: 0}
-}
-@-webkit-keyframes algoFadeUp {
     100% {opacity: 1; margin-top: 0; margin-bottom: 0}
 }
 .algo-item1 {animation: algoFadeUp 1.25s ease .5s forwards}
