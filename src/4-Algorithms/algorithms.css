@@ -98,7 +98,7 @@
     margin-left: -1rem;
     width: calc(100% + 2rem);
     transition: all .7s ease;
-    background-color: orange
+    background-color: #fd2154
 }
 #algoRuby::before {
     content: "";
@@ -107,7 +107,7 @@
     margin-left: -1rem;
     width: calc(100% + 2rem);
     transition: all .7s ease;
-    background-color: #FD2155
+    background-color: orange
 }
 #algoNotJavascript::before {
     content: "";
@@ -116,7 +116,7 @@
     margin-left: -1rem;
     width: calc(100% + 2rem);
     transition: all .7s ease;
-    background: #00ff80;
+    background: #58cef9;
 }
 #algoDefNotJavascript::before {
     content: "";
@@ -125,7 +125,7 @@
     margin-left: -1rem;
     width: calc(100% + 2rem);
     transition: all .7s ease;
-    background-color: #58cef9;
+    background-color: #00ff80;
 }
 .algo-title-box {
     display: flex;
@@ -142,16 +142,16 @@
     margin-top: 1rem;
 }
 #algoJavascript p:first-child {
-    color: orange;
+    color: #fd2154;
 }
 #algoRuby p:first-child {
-    color: #FD2155;
+    color: orange;
 }
 #algoNotJavascript p:first-child {
-    color: #00ff80;
+    color: #58cef9;
 }
 #algoDefNotJavascript p:first-child {
-    color: #58cef9;
+    color: #00ff80;
 }
 .algo-item p:last-child {
     display: block;
@@ -215,19 +215,27 @@
 .extracurricular-item img {
     height: 4rem;
     width: auto;
-    /* border: 1px solid rebeccapurple; */
 }
 .extracurricular-item h2 {
     font-size: 1.8rem;
     font-weight: 300;
     color: whitesmoke;
 }
-.extracurricular-tab-box {
-}
 #extracurricular-tab {
     font-size: 2rem;
 }
-
+#extracurricularIcon1 {height: 4.35rem;}
+#extracurricularIcon2 {height: 4.25rem; margin-left: .5rem;}
+#extracurricularIcon3 {height: 4rem;}
+#extracurricularIcon4 {height: 4.25rem;}
+#extracurricularIcon5 {height: 4.85rem;}
+#extracurricularIcon6 {height: 4.85rem;}
+#extracurricularIcon7 {height: 4rem;}
+#extracurricularIcon8 {height: 4.75rem; margin-bottom: .5rem;}
+#extracurricularIcon9 {height: 4.85rem !important;}
+#extracurricularIcon10 {height: 5.75rem !important;}
+#extracurricularIcon11 {height: 5.5rem !important;}
+#extracurricularIcon12 {height: 5.25rem !important;}
 
 
 
