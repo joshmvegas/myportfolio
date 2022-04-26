@@ -21,7 +21,7 @@
     transition: color .35s ease;
 }
 .blog-header span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     animation: contactBounce 1s ease forwards
 }
 .blog-description {
@@ -103,7 +103,7 @@
     height: 21.5rem;
     border-bottom: 1px solid gray;
     color: black;
-    background-color: #08fdd8;
+    background-color: #53a7d1;
     padding: 1rem 2rem;
 }
 .blog-title {

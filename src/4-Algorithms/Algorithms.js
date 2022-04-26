@@ -1,5 +1,18 @@
 import './algorithms.css'
 import { useEffect } from 'react'
+import { FaChevronRight } from "react-icons/fa"
+import biologyImg from '../Images/extracurricular-icons/biology.jpg'
+import bloodImg from '../Images/extracurricular-icons/blood.png'
+import cookingImg from '../Images/extracurricular-icons/cooking.png'
+import crisisImg from '../Images/extracurricular-icons/crisis.png'
+import discipleshipImg from '../Images/extracurricular-icons/discipleship.png'
+import languageImg from '../Images/extracurricular-icons/language.png'
+import magicImg from '../Images/extracurricular-icons/magic.jpg'
+import medexImg from '../Images/extracurricular-icons/medex.png'
+import prezImg from '../Images/extracurricular-icons/prez.png'
+import sportsImg from '../Images/extracurricular-icons/sports.png'
+import yardCareImg from '../Images/extracurricular-icons/yard_care.png'
+import yearbookImg from '../Images/extracurricular-icons/yearbook.png'
 
 function Algorithms() {
     useEffect(() => {window.scrollTo(0, 0)}, [])
@@ -32,38 +45,130 @@ function Algorithms() {
                 <div className="algo-wrapper">
                     <div id='algoJavascript' className="algo-item algo-item1">
                         <div className="algo-title-box">
-                            <p>Javascript</p>
-                            <p>3 Min</p>
+                            <p>Volunteering</p>
+                            <p>4 Categories</p>
                         </div>
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
+                            <div className="extracurricular-box-wrapper">
+                                <div className="extracurricular-item">
+                                    <img src={crisisImg} alt="" />
+                                    <h2>Crisis Counselor</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div className="extracurricular-item">
+                                    <img src={bloodImg} alt="" />
+                                    <h2>Blood Donor Ambassador</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div className="extracurricular-item">
+                                    <img src={yearbookImg} alt="" />
+                                    <h2>University Yearbook Writer</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div className="extracurricular-item">
+                                    <img src={medexImg} alt="" />
+                                    <h2>MedEx Campus Ambassador</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id='algoRuby' className="algo-item algo-item2">
                         <div className="algo-title-box">
-                            <p>Ruby</p>
-                            <p>1 Min</p>
+                            <p>Interests</p>
+                            <p>4 Categories</p>
                         </div>
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
+                            <div className="extracurricular-box-wrapper">
+                                <div className="extracurricular-item">
+                                    <img src={sportsImg} alt="" />
+                                    <h2>Sports & Fitness</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div className="extracurricular-item">
+                                    <img src={magicImg} alt="" />
+                                    <h2>Sleight-of-Hand Magic</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div className="extracurricular-item">
+                                    <img src={languageImg} alt="" />
+                                    <h2>Foreign Language</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div className="extracurricular-item">
+                                    <img src={cookingImg} alt="" />
+                                    <h2>Culinary Arts</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div id='algoJavascriptRuby' className="algo-item algo-item3">
+                    <div id='algoNotJavascript' className="algo-item algo-item3">
                         <div className="algo-title-box">
-                            <p>Javascript <span>&</span> <span>Ruby</span></p>
-                            <p>2 Min</p>
+                            <p>Leadership</p>
+                            <p>2 Categories</p>
                         </div>
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
+                            <div className="extracurricular-box-wrapper">
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                    <img src={prezImg} alt="" />
+                                    <h2>BJU PMA President</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                    <img src={discipleshipImg} alt="" />
+                                    <h2>Discipleship Group Leader</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div id='algoJavascript' className="algo-item algo-item4">
+                    <div id='algoDefNotJavascript' className="algo-item algo-item4">
                         <div className="algo-title-box">
-                            <p>Javascript</p>
-                            <p>1 Min</p>
+                            <p>Work</p>
+                            <p>2 Categories</p>
                         </div>
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
+                            <div className="extracurricular-box-wrapper">
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                    <img src={yardCareImg} alt="" />
+                                    <h2>Proprietor of Venegas Yard Care</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                    <img src={biologyImg} alt="" />
+                                    <h2>Head Biology Lab Assistant</h2>
+                                    <div className="extracurricular-tab-box">
+                                        <FaChevronRight id='extracurricular-tab'/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@
     transition: color .35s ease;
 }
 .algo-header span:hover {
-    color: #08fdd8;
+    color: #53a7d1;
     animation: contactBounce 1s ease forwards
 }
 .algo-description {
@@ -109,14 +109,23 @@
     transition: all .7s ease;
     background-color: #FD2155
 }
-#algoJavascriptRuby::before {
+#algoNotJavascript::before {
     content: "";
     display: block;
     height: 2px;
     margin-left: -1rem;
     width: calc(100% + 2rem);
     transition: all .7s ease;
-    background: linear-gradient(to right,orange, #FD2155);
+    background: #00ff80;
+}
+#algoDefNotJavascript::before {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: -1rem;
+    width: calc(100% + 2rem);
+    transition: all .7s ease;
+    background-color: #58cef9;
 }
 .algo-title-box {
     display: flex;
@@ -138,14 +147,11 @@
 #algoRuby p:first-child {
     color: #FD2155;
 }
-#algoJavascriptRuby p:first-child {
-    color: orange;
+#algoNotJavascript p:first-child {
+    color: #00ff80;
 }
-#algoJavascriptRuby p:first-child span:first-of-type {
-    color: #aaa;
-}
-#algoJavascriptRuby p:first-child span:last-of-type {
-    color: #FD2155;
+#algoDefNotJavascript p:first-child {
+    color: #58cef9;
 }
 .algo-item p:last-child {
     display: block;
@@ -162,11 +168,83 @@
     height: 30rem;
     margin-bottom: 1rem;
 }
-.algo-iframe-wrapper iframe {
+
+
+
+
+
+
+
+
+
+
+
+.extracurricular-box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     border-radius: .5rem;
+    /* border: 1px solid red; */
 }
+.extracurricular-item {
+    /* border: 1px solid #111; */
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+    padding: 0 2rem;
+    margin: .25rem 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #222;
+}
+#extracurricularTabNumTwo {
+    margin: .5rem 0;
+}
+#extracurricularTabNumTwo h2 {
+    font-size: 2.125rem;
+}
+#extracurricularTabNumTwo img {
+    height: 5rem;
+    width: auto;
+}
+.extracurricular-item img {
+    height: 4rem;
+    width: auto;
+    /* border: 1px solid rebeccapurple; */
+}
+.extracurricular-item h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.extracurricular-tab-box {
+}
+#extracurricular-tab {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE */
 @media (max-width: 1400px) {
