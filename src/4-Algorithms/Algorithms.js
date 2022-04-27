@@ -52,22 +52,22 @@ function Algorithms() {
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon1' src={crisisImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon1' src={crisisImg} alt="" />
                                     <h2 id='extracurricularText1'>Crisis Counselor</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon2' src={bloodImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon2' src={bloodImg} alt="" />
                                     <h2 id='extracurricularText2'>Blood Donor Ambassador</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon3' src={yearbookImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon3' src={yearbookImg} alt="" />
                                     <h2 id='extracurricularText3'>University Yearbook Writer</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon4' src={medexImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon4' src={medexImg} alt="" />
                                     <h2 id='extracurricularText4'>MedEx Campus Ambassador</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
@@ -83,22 +83,22 @@ function Algorithms() {
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon5' src={sportsImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon5' src={sportsImg} alt="" />
                                     <h2 id='extracurricularText5'>Sports & Fitness</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon6' src={magicImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon6' src={magicImg} alt="" />
                                     <h2 id='extracurricularText6'>Sleight-of-Hand Magic</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon7' src={languageImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon7' src={languageImg} alt="" />
                                     <h2 id='extracurricularText7'>Foreign Language</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item">
-                                    <img id='extracurricularIcon8' src={cookingImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon8' src={cookingImg} alt="" />
                                     <h2 id='extracurricularText8'>Culinary Arts</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
@@ -114,12 +114,12 @@ function Algorithms() {
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
                                 <div id='extracurricularTabNumTwo' className="extracurricular-item">
-                                    <img id='extracurricularIcon9' src={yardCareImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon9' src={yardCareImg} alt="" />
                                     <h2 id='extracurricularText9'>Proprietor of Venegas Yard Care</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div id='extracurricularTabNumTwo' className="extracurricular-item">
-                                    <img id='extracurricularIcon10' src={biologyImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon10' src={biologyImg} alt="" />
                                     <h2 id='extracurricularText10'>Head Biology Lab Assistant</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
@@ -135,12 +135,12 @@ function Algorithms() {
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
                                 <div id='extracurricularTabNumTwo' className="extracurricular-item">
-                                    <img id='extracurricularIcon11' src={prezImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon11' src={prezImg} alt="" />
                                     <h2 id='extracurricularText11'>BJU PMA President</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div id='extracurricularTabNumTwo' className="extracurricular-item">
-                                    <img id='extracurricularIcon12' src={discipleshipImg} alt="" />
+                                    <img className="extracurricularImage" id='extracurricularIcon12' src={discipleshipImg} alt="" />
                                     <h2 id='extracurricularText12'>Discipleship Group Leader</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
