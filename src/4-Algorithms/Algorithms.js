@@ -1,5 +1,6 @@
 import './algorithms.css'
-import { useEffect } from 'react'
+import Modal from './Modal/Modal'
+import { useEffect, useState } from 'react'
 import { FaChevronRight } from "react-icons/fa"
 import biologyImg from '../Images/extracurricular-icons/biology.jpg'
 import bloodImg from '../Images/extracurricular-icons/blood.png'
@@ -16,8 +17,15 @@ import yearbookImg from '../Images/extracurricular-icons/yearbook.png'
 
 function Algorithms() {
     useEffect(() => {window.scrollTo(0, 0)}, [])
+    const [modalID, setModalID] = useState(null)
+    const [openModal, setOpenModal] = useState(false)
+    function handleOpenModal(id) {
+        setModalID(id)
+        setOpenModal(true)
+    }
     return (
         <div className='algo-container'>
+            <Modal open={openModal} setOpenModal={setOpenModal} modalID={modalID}/>
             <h1 className="algo-header">
                         <span>E</span>
                         <span>x</span>
@@ -51,22 +59,22 @@ function Algorithms() {
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(1)}>
                                     <img className="extracurricularImage" id='extracurricularIcon1' src={crisisImg} alt="" />
                                     <h2 id='extracurricularText1'>Crisis Counselor</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(2)}>
                                     <img className="extracurricularImage" id='extracurricularIcon2' src={bloodImg} alt="" />
                                     <h2 id='extracurricularText2'>Blood Donor Ambassador</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(3)}>
                                     <img className="extracurricularImage" id='extracurricularIcon3' src={yearbookImg} alt="" />
                                     <h2 id='extracurricularText3'>University Yearbook Writer</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(4)}>
                                     <img className="extracurricularImage" id='extracurricularIcon4' src={medexImg} alt="" />
                                     <h2 id='extracurricularText4'>MedEx Campus Ambassador</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
@@ -82,22 +90,22 @@ function Algorithms() {
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(5)}>
                                     <img className="extracurricularImage" id='extracurricularIcon5' src={sportsImg} alt="" />
                                     <h2 id='extracurricularText5'>Sports & Fitness</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(6)}>
                                     <img className="extracurricularImage" id='extracurricularIcon6' src={magicImg} alt="" />
                                     <h2 id='extracurricularText6'>Sleight-of-Hand Magic</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(7)}>
                                     <img className="extracurricularImage" id='extracurricularIcon7' src={languageImg} alt="" />
                                     <h2 id='extracurricularText7'>Foreign Language</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div className="extracurricular-item">
+                                <div className="extracurricular-item" onClick={() => handleOpenModal(8)}>
                                     <img className="extracurricularImage" id='extracurricularIcon8' src={cookingImg} alt="" />
                                     <h2 id='extracurricularText8'>Culinary Arts</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
@@ -113,12 +121,12 @@ function Algorithms() {
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
-                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item" onClick={() => handleOpenModal(9)}>
                                     <img className="extracurricularImage" id='extracurricularIcon9' src={yardCareImg} alt="" />
                                     <h2 id='extracurricularText9'>Proprietor of Venegas Yard Care</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item" onClick={() => handleOpenModal(10)}>
                                     <img className="extracurricularImage" id='extracurricularIcon10' src={biologyImg} alt="" />
                                     <h2 id='extracurricularText10'>Head Biology Lab Assistant</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
@@ -134,12 +142,12 @@ function Algorithms() {
                         <div className="algo-iframe-wrapper">
                             {/* STUFF GOES HERE */}
                             <div className="extracurricular-box-wrapper">
-                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item" onClick={() => handleOpenModal(11)}>
                                     <img className="extracurricularImage" id='extracurricularIcon11' src={prezImg} alt="" />
                                     <h2 id='extracurricularText11'>BJU PMA President</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
-                                <div id='extracurricularTabNumTwo' className="extracurricular-item">
+                                <div id='extracurricularTabNumTwo' className="extracurricular-item" onClick={() => handleOpenModal(12)}>
                                     <img className="extracurricularImage" id='extracurricularIcon12' src={discipleshipImg} alt="" />
                                     <h2 id='extracurricularText12'>Discipleship Group Leader</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
