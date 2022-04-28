@@ -168,17 +168,6 @@
     height: 30rem;
     margin-bottom: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
 .extracurricular-box-wrapper {
     display: flex;
     align-items: center;
@@ -234,7 +223,7 @@
     animation: extraSpin 4s ease infinite;
 }
 .extracurricular-item:hover #extracurricular-tab {
-    animation: extraBounce 1.65s infinite;
+    animation: extraBounce 2.5s ease-in-out infinite;
 }
 @keyframes extraSpin {
     from {transform: rotateY(360deg)}
@@ -266,23 +255,6 @@
 #extracurricularText6 {margin-left: 0rem;}
 #extracurricularText7 {margin-left: -.35rem;}
 #extracurricularText8 {margin-left: -1.5rem;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* RESPONSIVE */
 @media (max-width: 1400px) {

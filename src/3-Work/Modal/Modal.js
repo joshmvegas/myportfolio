@@ -1,7 +1,7 @@
 import './modal.css'
 import { useEffect, useState } from 'react'
 import { ImCross } from 'react-icons/im'
-import OneLogo from '../../Images/portfolio-logos/1.png'
+import OneLogo from '../../Images/portfolio-logos/2.png'
 import TwoLogo from '../../Images/portfolio-logos/2.png'
 import ThreeLogo from '../../Images/portfolio-logos/3.png'
 
@@ -12,28 +12,22 @@ function Modal({open, setOpenModal, modalID}) {
             title: "My Simple Wardrobe.",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
             features: ["Guest checkout", "Product review system", "Personal order history", "256-bit AES encryption"],
-            link: "www.mysimplewardrobe.com",
+            image1: OneLogo, image2: TwoLogo, image3: ThreeLogo,
             url: "https://www.mysimplewardrobe.com/",
-            github: "https://github.com/davidmvenegas/my-simple-wardrobe",
-            video: "https://www.youtube.com/embed/ZwveyK1Ag60"
         },
         {id: 2, 
             title: "Grocery Magix",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
             features: ["Millions of recipes", "Over 30 recipe search filters", "Secure Register/Login system", "Fully responsive"],
-            link: "www.grocerymagix.com",
+            image1: OneLogo, image2: TwoLogo, image3: ThreeLogo,
             url: "https://www.grocerymagix.com/",
-            github: "https://github.com/davidmvenegas/GroceryMagix",
-            video: "https://www.youtube.com/embed/05RJu6q-kU0"
         },
         {id: 3, 
             title: "The Financial Tracker",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
             features: ["Transaction ledger", "Monthly budget", "Adjustable savings goals", "Fully Responsive"],
-            link: "www.thefinancialtracker.com",
+            image1: OneLogo, image2: TwoLogo, image3: ThreeLogo,
             url: "https://www.thefinancialtracker.com/",
-            github: "https://github.com/davidmvenegas/financial-tracker",
-            video: "https://www.youtube.com/embed/KX3mJggp4h0"
         },
     ]
     useEffect(() => {
@@ -51,9 +45,9 @@ function Modal({open, setOpenModal, modalID}) {
             <div className="modal-wrapper">
                 <div className="modal-video-wrapper">
                     <div className="iframe-wrapper">
-                        <img src={OneLogo} alt="Logo" />
-                        <img src={TwoLogo} alt="Logo" />
-                        <img src={ThreeLogo} alt="Logo" />
+                        <img src={currentData?.image1} alt="Logo" />
+                        <img src={currentData?.image2} alt="Logo" />
+                        <img src={currentData?.image3} alt="Logo" />
                     </div>
                 </div>
                 <div className="modal-text-wrapper">

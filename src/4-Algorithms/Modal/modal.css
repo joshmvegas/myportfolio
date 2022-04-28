@@ -100,7 +100,7 @@
     margin-top: 3rem;
 }
 .extraModal-title {
-    font-size: 5rem;
+    font-size: 3.75rem;
     padding: 1.25rem 0 4.5rem;
 }
 .extraModal-description {
@@ -112,13 +112,14 @@
 
 /* YARD IMAGES */
 .extraYard {
-    /* border: 1px solid red; */
     height: 100%;
     width: 100%;
     margin-right: .75rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    animation: extraModalFade 1s ease-in-out 1s forwards;
 }
 .extraYard h1 {
     font-size: 2.75rem;

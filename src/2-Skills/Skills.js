@@ -1,7 +1,5 @@
 import './skills.css'
-import { useState, useEffect } from 'react'
-import { BsBoxArrowUpRight } from "react-icons/bs"
-import { GiClick } from "react-icons/gi"
+import { useEffect } from 'react'
 import LabImg from '../Images/skills/lab.png'
 import TechImg from '../Images/skills/tech.png'
 import ScienceImg from '../Images/skills/science.png'
@@ -14,19 +12,13 @@ import CompassionImg from '../Images/skills/compassion.png'
 import IntegrityImg from '../Images/skills/integrity.png'
 import FlatironImg from '../Images/flatiron_logo.png'
 import ComptiaImg from '../Images/comptia.png'
-import AWSImg from '../Images/aws.jpg'
-import FlatironCert from '../Images/flatiron_cert.png'
+import AWSImg from '../Images/aws.png'
 import AtlassianImg from '../Images/atlassian.png'
 import TypeWriterEffect from 'react-typewriter-effect'
 import { useInView } from 'react-intersection-observer'
 
 function Skills() {
     useEffect(() => window.scrollTo(0, 0), [])
-    const [mouse1, setMouse1] = useState(false)
-    const [mouse2, setMouse2] = useState(false)
-    const [mouse3, setMouse3] = useState(false)
-    const [mouse4, setMouse4] = useState(false)
-    const [cert, setCert] = useState(false)
     const [edSepRef, edSepInView] = useInView({threshold: 0, triggerOnce: true})
     const [edTitleRef, edTitleInView] = useInView({threshold: 0, triggerOnce: true})
     const [ed1Ref, ed1InView] = useInView({threshold: 0, triggerOnce: true})
@@ -155,16 +147,10 @@ function Skills() {
                     <span>s</span>
                 </h1>
                 <div className="cert-items">
-                    <div className="flatiron-item" ref={ed1Ref} id={ed1InView ? "cert1-active" : undefined} onMouseEnter={() => setMouse1(true)} onMouseLeave={() => setMouse1(false)}>
-                        <div className="flatiron-img-wrapper" onMouseEnter={() => setMouse1(false)} onMouseLeave={() => setMouse1(true)} onClick={() => setCert(!cert)}>
+                    <div className="flatiron-item" ref={ed1Ref} id={ed1InView ? "cert1-active" : undefined}>
+                        <div className="flatiron-img-wrapper">
                             <div className="flatiron-images">
-                                <img className="flatiron-img" src={FlatironImg} alt="Flatiron" style={cert ? {opacity: "0"} : {opacity: "1"}}/>
-                                <img className="flatiron-img" src={FlatironCert} alt="Flatiron" style={cert ? {opacity: "1"} : {opacity: "0"}}/>
-                            </div>
-                            <GiClick id={mouse1 ? "flatiron-pointer" : "flatiron-pointer-gone"}/>
-                            <div className="flatiron-img-hover-box">
-                                <h1 style={cert ? {opacity: "1"} : {opacity: "0"}}>Click to hide certificate</h1>
-                                <h1 style={cert ? {opacity: "0"} : {opacity: "1"}}>Click to change</h1>
+                                <img className="flatiron-img" src={FlatironImg} alt="Flatiron"/>
                             </div>
                         </div>
                         <div className="flatiron-text-box">
@@ -184,49 +170,28 @@ function Skills() {
                             <p>By May 2023, I will have spent 4 years full time at Bob Jones University. I am forever indebted to the devoted peers and professors that make this experience so valuable.</p>
                         </div>
                     </div>
-                    <div ref={ed2Ref} className="cert-item" id={ed2InView ? "cert2-active" : undefined} onMouseEnter={() => setMouse2(true)} onMouseLeave={() => setMouse2(false)}>
-                        <a href="https://www.credly.com/badges/7414c8a3-6315-4711-b4a3-ead2b9720a2d" target="_blank" rel="noreferrer">
-                            <div className="cert-img-wrapper" onMouseEnter={() => setMouse2(false)} onMouseLeave={() => setMouse2(true)}>
-                                <img className='cert-img' src={AWSImg} alt="AWS" />
-                                <GiClick id={mouse2 ? "cert-pointer" : "cert-pointer-gone"}/>
-                                <div className="cert-img-hover-box">
-                                    <h1>View certificate</h1>
-                                    <BsBoxArrowUpRight id='cert-arrow'/>
-                                </div>
-                            </div>
-                        </a>
+                    <div ref={ed2Ref} className="cert-item" id={ed2InView ? "cert2-active" : undefined}>
+                        <div className="cert-img-wrapper">
+                            <img className='cert-img' src={AWSImg} alt="AWS" />
+                        </div>
                         <div className="cert-text-box">
                             <h1 className='cert-title'>Professional Rescuer - Lifeguarding</h1>
                             <p>A foundational accreditation from the world's largest non-profit emergency assistance organization. This certification includes basic life support training with first aid, CPR, and AED.</p>
                         </div>
                     </div>
-                    <div ref={ed3Ref} className="cert-item" id={ed3InView ? "cert3-active" : undefined} onMouseEnter={() => setMouse3(true)} onMouseLeave={() => setMouse3(false)}>
-                        <a href="https://www.credly.com/badges/533f456d-e121-4340-b831-cc361012ce59" target="_blank" rel="noreferrer">
-                            <div className="cert-img-wrapper" onMouseEnter={() => setMouse3(false)} onMouseLeave={() => setMouse3(true)}>
-                                <img className='cert-img' src={ComptiaImg} alt="Comptia Security +" />
-                                <GiClick id={mouse3 ? "cert-pointer" : "cert-pointer-gone"}/>
-                                <div className="cert-img-hover-box">
-                                    <h1>View certificate</h1>
-                                    <BsBoxArrowUpRight id='cert-arrow'/>
-                                </div>
-                            </div>
-                        </a>
+                    <div ref={ed3Ref} className="cert-item" id={ed3InView ? "cert3-active" : undefined}>
+                        <div className="cert-img-wrapper">
+                            <img className='cert-img' src={ComptiaImg} alt="Comptia Security +" />
+                        </div>
                         <div className="cert-text-box">
                             <h1 className='cert-title'>Crisis Counselor</h1>
                             <p>Issued by an international crisis hotline, this certification involves 30 hours of training in empathetic communication. I've learned many valuable lessons for patient interaction in 400+ hours & counting with CTL.</p>
                         </div>
                     </div>
-                    <div ref={ed4Ref} className="cert-item" id={ed4InView ? "cert4-active" : undefined} onMouseEnter={() => setMouse4(true)} onMouseLeave={() => setMouse4(false)}>
-                        <a href="https://university.atlassian.com/student/award/SzMgzKvEBivKWJWuomUu2PR5" target="_blank" rel="noreferrer">
-                            <div className="cert-img-wrapper" onMouseEnter={() => setMouse4(false)} onMouseLeave={() => setMouse4(true)}>
-                                <img className='cert-img' src={AtlassianImg} alt="Jira Fundamentals" />
-                                <GiClick id={mouse4 ? "cert-pointer" : "cert-pointer-gone"}/>
-                                <div className="cert-img-hover-box">
-                                    <h1>View certificate</h1>
-                                    <BsBoxArrowUpRight id='cert-arrow'/>
-                                </div>
-                            </div>
-                        </a>
+                    <div ref={ed4Ref} className="cert-item" id={ed4InView ? "cert4-active" : undefined}>
+                        <div className="cert-img-wrapper">
+                            <img className='cert-img' src={AtlassianImg} alt="Jira Fundamentals" />
+                        </div>
                         <div className="cert-text-box">
                             <h1 className='cert-title'>QPR Suicide Prevention</h1>
                             <p>Question, Persuade, Refer. By partnering with Mental Health America to adress mental health conditions in their earliest stages, I work to avert the most critical situations that can lead to irreversible decisions</p>

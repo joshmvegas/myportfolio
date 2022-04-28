@@ -129,7 +129,7 @@
 .port-gif {
     position: absolute;
     right: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
     border-radius: .5rem 0 0 .5rem;
     transition: opacity .5s ease-in-out;
@@ -166,20 +166,6 @@
     100% {width: 48.5rem; opacity: 1}
 }
 @keyframes portAnimPop {
-    100% {opacity: 1}
-}
-@-webkit-keyframes portAnimItem {
-    60% {-webkit-transform: scale(.9)}
-    100% {width: 100%; -webkit-transform: scale(1)}
-}
-@-webkit-keyframes portAnimBox {
-    100% {width: 48.5rem}
-}
-@-webkit-keyframes portAnimWrap {
-    80% {opacity: 0}
-    100% {width: 48.5rem; opacity: 1}
-}
-@-webkit-keyframes portAnimPop {
     100% {opacity: 1}
 }
 .portGifPopup {

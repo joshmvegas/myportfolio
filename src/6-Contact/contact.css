@@ -31,15 +31,6 @@
     75% {transform: scale3d(1.05, .95, 1)}
     to {transform: scale3d(1, 1, 1)}
 }
-@-webkit-keyframes contactBounce {
-    from {-webkit-transform: scale3d(1, 1, 1)}
-    30% {-webkit-transform: scale3d(1.25, 0.75, 1)}
-    40% {-webkit-transform: scale3d(0.75, 1.2, 1)}
-    50% {-webkit-transform: scale3d(1.15, 0.85, 1)}
-    65% {-webkit-transform: scale3d(.95, 1.05, 1)}
-    75% {-webkit-transform: scale3d(1.05, .95, 1)}
-    to {-webkit-transform: scale3d(1, 1, 1)}
-}
 
 #cLetter_c1 {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: .1s}
 #cLetter_o {opacity: 0; animation: aboutFadeIn 1s ease-in-out forwards; animation-delay: .2s}
@@ -227,11 +218,6 @@
     75% {opacity: 1}
     100% {opacity: 0; bottom: -3rem}
 }
-@-webkit-keyframes copyPopup {
-    25% {opacity: 1}
-    75% {opacity: 1}
-    100% {opacity: 0; bottom: -3rem}
-}
 .contact-right-box {
     position: fixed;
     right: 0;
@@ -240,9 +226,6 @@
     width: 43.5%;
 }
 @keyframes mapCoverBye {
-    100% {width: 0}
-}
-@-webkit-keyframes mapCoverBye {
     100% {width: 0}
 }
 .contact-right-cover {
@@ -256,14 +239,11 @@
 @keyframes mapBoxPop {
     100% {margin-top: 0; opacity: 1}
 }
-@-webkit-keyframes mapBoxPop {
-    100% {margin-top: 0; opacity: 1}
-}
 .map-popup {
     position: absolute;
     background: rgba(0,0,0,0.875);
-    top: 4rem;
-    left: 4rem;
+    top: 3rem;
+    left: 3rem;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;

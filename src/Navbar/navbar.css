@@ -60,9 +60,9 @@
     border-top: 1px solid #282828;
 }
 .nav-link h1 {
-    font-size: 1.95rem;
+    font-size: 1.9rem;
     font-weight: 400;
-    line-height: 2.85;
+    line-height: 3;
     border-bottom: 1px solid #282828;
     transition: transform .1s ease;
     cursor: pointer;
