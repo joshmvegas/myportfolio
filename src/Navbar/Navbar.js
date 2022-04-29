@@ -1,7 +1,8 @@
 import './navbar.css'
 import { NavLink } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
+import { BsFillAwardFill } from "react-icons/bs"
 import Logo from '../Images/logo.png'
 import { Fragment, useEffect, useState } from 'react'
 
@@ -37,7 +38,7 @@ function Navbar() {
                 </ul>
                 <div className="navbar-bottom">
                     <a href="https://www.linkedin.com/in/servantforlife/" target="_blank" rel="noopener noreferrer"><FaLinkedin className='nav-icon'/></a>
-                    <a href="https://github.com/davidmvenegas" target="_blank" rel="noopener noreferrer"><FaGithub className='nav-icon'/></a>
+                    <a href="https://meritpages.com/Joshua-Venegas/5171579/" target="_blank" rel="noopener noreferrer"><BsFillAwardFill className='nav-icon'/></a>
                 </div>
             </div>
         </Fragment>
