@@ -203,7 +203,7 @@
     100% {opacity: 1}
 }
 .about-right-box {
-    padding-right: 6rem;
+    padding-right: 7rem;
     width: 45%;
     animation: aboutRightSideFade 1.5s ease 2s forwards;
     opacity: 0;

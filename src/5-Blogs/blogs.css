@@ -107,7 +107,7 @@
     padding: 1rem 2rem;
 }
 .blog-title {
-    font-size: 3rem;
+    font-size: 2.85rem;
     color: #121212;
     text-shadow: 1.5px 1.5px 1px gray;
     padding: .5rem 0 1rem;
@@ -172,7 +172,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.85rem;
+    font-size: 1.9rem;
     font-weight: 500;
 }
 .blog-likes {
@@ -183,11 +183,11 @@
     top: 50%;
     transform: translateY(-50%);
     right: 5rem;
-    color: #555;
+    color: #656565;
     -webkit-text-stroke: 1px #222;
-    font-size: 2rem;
-    letter-spacing: -1px;
+    font-size: 1.85rem;
     font-weight: 900;
+    font-style: italic;
 }
 .blog-likes img {
     height: 3.5rem;
