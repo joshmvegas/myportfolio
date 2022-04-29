@@ -11,7 +11,7 @@ function Modal({open, setOpenModal, modalID}) {
         {id: 1, 
             title: "My Simple Wardrobe.",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
-            features: ["Guest checkout", "Product review system", "Personal order history", "256-bit AES encryption"],
+            features: ["Guest checkout", "Whatever i want", "Personal order history", "256-bit AES encryption"],
             image1: OneLogo, image2: TwoLogo, image3: ThreeLogo,
             url: "https://www.mysimplewardrobe.com/",
         },

@@ -18,7 +18,7 @@ function Contact() {
             background: '#444',
             backdrop: `rgba(0,0,0,0.5)`
         })
-        emailjs.sendForm('service_p4e9t3x', 'template_40qv28e', formRef.current, 'user_Wr18txCeJipUS6ENtKUc0')
+        emailjs.sendForm('service_655skfr', 'service_655skfr', formRef.current, 'N7KmmM_xVJaXXWuEA')
         .then(e.target.reset())
         .catch (error => console.log(error.text))
     }
@@ -85,7 +85,7 @@ function Contact() {
                     <p>Greenvile, SC - USA</p>
                 </div>
                 <div className="map-wrapper">
-                    <iframe title='Contact Map' src="https://snazzymaps.com/embed/382691" width="100%" height="100%" style={{border: "none"}}/>
+                    <iframe title='Contact Map' src="https://snazzymaps.com/embed/390453" width="100%" height="100%" style={{border: "none"}}/>
                 </div>
             </div>
         </div>
