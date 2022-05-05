@@ -60,8 +60,8 @@ function About() {
             <div className="about-right-box">
                 <div className="about-right-title"><img src={PortraitImg} alt="Portrait" /></div>
                 <p className='about-right-description'>
-                I'm a driven learner with a passion for medicine and a commitment to Christ. Health care is something with which I've always felt a deep connection. 
-                <br /><br /> I have high aspirations and feel most content when learning from mentors in the classroom and in medical settings. I am excited for the breakthroughs and challenges that await as I begin my journey to medical school and beyond.
+                I'm a driven learner with a passion for medicine and a commitment to Christ. The intricate design of the human body has always fascinated me while motivating me to explore its complexity.
+                <br /><br /> My life is a combination of high aspirations and a commitment to serve my community, yet I'm most content when learning from mentors in the classroom and in medical settings. I'm excited for the breakthroughs and challenges that await as I begin my journey to medical school and beyond.
                 </p>
             </div>
         </div>

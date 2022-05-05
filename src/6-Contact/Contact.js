@@ -45,7 +45,7 @@ function Contact() {
                     <span id='cLetter_e'>e</span>
                 </h1>
                 <p className="contact-message contactForm1">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ex modi minus non aliquid dolorem dolorum, fugiat illo vel nihil delectus porro blanditiis iure, veniam hic qui illum itaque at.
+                    I currently reside in Greenville, SC. If you have any questions for me or have any advice for an aspiring physician, feel free to contact me! You can email me directly, or just fill out the form below.
                 </p>
                 <form className="contact-form" ref={formRef} onSubmit={sendEmail}>
                     <ul>

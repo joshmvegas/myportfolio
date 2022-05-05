@@ -4,36 +4,43 @@ import { ImCross } from 'react-icons/im'
 import OneImage from '../../Images/clinical-experience-images/1.png'
 import TwoImage from '../../Images/clinical-experience-images/2.png'
 import ThreeImage from '../../Images/clinical-experience-images/3.png'
+import OneShadow from '../../Images/clinical-experience-images/1Shadow.png'
+import TwoShadow from '../../Images/clinical-experience-images/2Shadow.png'
+import ThreeShadow from '../../Images/clinical-experience-images/3Shadow.png'
+import OneIntern from '../../Images/clinical-experience-images/1Intern.png'
+import TwoIntern from '../../Images/clinical-experience-images/2Intern.png'
+import ThreeIntern from '../../Images/clinical-experience-images/3Intern.png'
+
 
 function Modal({open, setOpenModal, modalID}) {
     useEffect(() => {open ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'unset'}, [open])
     const modalData = [
         {id: 1, 
-            title: "My Simple Wardrobe.",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
-            features: ["Guest checkout", "Whatever i want", "Personal order history", "256-bit AES encryption"],
+            title: "MedEx Academy",
+            desc: "MedEx is an unmatched intensive program that exposes a hand-picked group of healthcare-minded undergraduates to the medical field. The experience is organized into multiple tiers, providing resources for graduate school applicants while placing a special focus on developing the AAMC Core Competencies in each participant.",
+            features: ["50 hrs of patient interaction at a geriatric hospital", "Crafted and delivered oral presentations", "Engaged in diversity training", "Challenged critical thinking through ethics seminars"],
             image1: OneImage,
             image2: TwoImage,
             image3: ThreeImage,
-            url: "https://www.mysimplewardrobe.com/",
+            url: "https://academics.prismahealth.org/academics/education/medex-academy",
         },
         {id: 2, 
-            title: "Grocery Magix",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
-            features: ["Millions of recipes", "Over 30 recipe search filters", "Secure Register/Login system", "Fully responsive"],
-            image1: OneImage,
-            image2: TwoImage,
-            image3: ThreeImage,
-            url: "https://www.grocerymagix.com/",
+            title: "Clinical Shadowing",
+            desc: "I shadowed Dr. Carles on multiple occasions in the summer of 2021 and spring of 2022, during which I got to know dozens of patients, RNs, NPs and other physicians. Along the way, I became familiar with many of the family doctor's challenges including medication nonadherance, work-life balance, and insurance company correspondance.", 
+            features: ["Observed and interacted with patients of all ages and backgrounds", "Developed a close relationship with Dr. Carles", "Observed various minimally invasive procedures", "Calmed infants and assisted the immobile"],
+            image1: OneShadow,
+            image2: TwoShadow,
+            image3: ThreeShadow,
+            url: "https://www.chapinfamilypractice.com/our-team/doctor/details/4341/javier-e-carles-md",
         },
         {id: 3, 
-            title: "The Financial Tracker",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
-            features: ["Transaction ledger", "Monthly budget", "Adjustable savings goals", "Fully Responsive"],
-            image1: OneImage,
-            image2: TwoImage,
-            image3: ThreeImage,
-            url: "https://www.thefinancialtracker.com/",
+            title: "Student Medical Internship",
+            desc: "This experience is a premed requirement at Bob Jones University, designed to introduce each aspiring health professional to a variety of specialties and encounters. By the end of the semester, I had compiled over 40 hours of shadowing in 10 different departments, each of which I attmepted to maximize by engaging with each practitioner.",
+            features: ["Scrubbed in for operations in the OR", "Assisted emergency physicians in a level 1 trauma center", "Analyzed hundreds of CAT scans, X-rays, and MRIs in radiology", "Followed patients from pre-op to post-op with anesthesiology"],
+            image1: OneIntern,
+            image2: TwoIntern,
+            image3: ThreeIntern,
+            url: "https://www.bju.edu/academics/programs/premed-predent/",
         },
     ]
     useEffect(() => {

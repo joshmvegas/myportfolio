@@ -98,7 +98,7 @@ function Blogs() {
                                 <h4 className="blog-date">Nov 23, 2021</h4>
                                 <h2 className="blog-read">13 Minute Read</h2>
                                 <div className="blog-likes">
-                                    <p>BIOLOGY</p>
+                                    <p>PHYSIOLOGY</p>
                                 </div>
                             </div>
                         </div>

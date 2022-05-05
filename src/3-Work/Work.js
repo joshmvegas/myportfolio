@@ -90,9 +90,9 @@ function Work() {
                         <div className="port-text-box">
                             <h1 className="port-title">Clinical Shadowing</h1>
                             <p className="port-headline">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga cum voluptatibus magnam recusandae voluptas totam beatae ullam fugiat sint quos porro.
+                                Many meaningful moments that directed me towards healthcare came during my shadowing experiences with family physician Dr. Javier Carles (pictured on the left).
                                 <br />
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga cum voluptatibus magnam recusandae voluptas totam beatae ullam fugiat sint quos porro.
+                                His commitment to establishing trust and respect with his patients was impactful, teaching me the importance of the physician-patient relationship for patient health.
                             </p>
                             <div className="port-btn-box">
                                 <div className='port-btn-more' onClick={() => handleOpenModal(2)}>
@@ -111,9 +111,9 @@ function Work() {
                         <div className="port-text-box">
                             <h1 className="port-title">Medical Internship</h1>
                             <p className="port-headline">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga cum voluptatibus magnam recusandae voluptas totam beatae ullam fugiat sint quos porro.
+                                A semester-long internship in the spring of 2022 exposed me to nearly a dozen medical specialties practicing all across the SC upstate with Prisma Health.
                                 <br />
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga cum voluptatibus magnam recusandae voluptas totam beatae ullam fugiat sint quos porro.
+                                These included visits to family medicine, internal medicine, general and vascular surgery, neurology, radiology, and anesthesiology, among others.
                             </p>
                             <div className="port-btn-box">
                                 <div className='port-btn-more' onClick={() => handleOpenModal(3)}>
