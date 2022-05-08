@@ -185,7 +185,7 @@ function Skills() {
                         </div>
                         <div className="cert-text-box">
                             <h1 className='cert-title'>Crisis Counselor</h1>
-                            <p>Issued by an international crisis hotline, this certification involves 30 hours of training in empathetic communication. I've learned many valuable lessons for patient interaction in 400+ hours & counting with CTL.</p>
+                            <p>Issued by an international crisis hotline, this certification involves 6 weeks of training in empathetic communication. I've learned many valuable lessons for patient interaction in 400+ hours & counting with CTL.</p>
                         </div>
                     </div>
                     <div ref={ed4Ref} className="cert-item" id={ed4InView ? "cert4-active" : undefined}>

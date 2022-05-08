@@ -102,7 +102,7 @@ function Algorithms() {
                                 </div>
                                 <div className="extracurricular-item" onClick={() => handleOpenModal(7)}>
                                     <img className="extracurricularImage" id='extracurricularIcon7' src={languageImg} alt="" />
-                                    <h2 id='extracurricularText7'>Foreign Language</h2>
+                                    <h2 id='extracurricularText7'>Computer Programming</h2>
                                     <FaChevronRight id='extracurricular-tab'/>
                                 </div>
                                 <div className="extracurricular-item" onClick={() => handleOpenModal(8)}>
