@@ -7,15 +7,14 @@ import BeforeImg from './Before.png'
 import CTLImage from '../../Images/extracurricular-images/CTL.png'
 import RedCrossImage from '../../Images/extracurricular-images/RedCross.png'
 import VintageImage from '../../Images/extracurricular-images/Vintage.png'
-import OneImage from '../../Images/extracurricular-images/1.png'
+import MagicImage from '../../Images/extracurricular-images/Magic.png'
 import MedexImage from '../../Images/extracurricular-images/Medex.png'
 import SportsImage from '../../Images/extracurricular-images/Sports.png'
 import CodingImage from '../../Images/extracurricular-images/Coding.png'
 import CookingImage from '../../Images/extracurricular-images/Cooking.png'
 import LabImage from '../../Images/extracurricular-images/Lab.png'
-import TenImage from '../../Images/extracurricular-images/1.png'
-import ElevenImage from '../../Images/extracurricular-images/1.png'
-import TwelveImage from '../../Images/extracurricular-images/1.png'
+import DGImage from '../../Images/extracurricular-images/DG.png'
+import PMAImage from '../../Images/extracurricular-images/PMA.png'
 
 function Modal({open, setOpenModal, modalID}) {
     useEffect(() => {open ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'unset'}, [open])
@@ -54,7 +53,7 @@ function Modal({open, setOpenModal, modalID}) {
             title: "Sleight-of-Hand Magic",
             paragraph1: "Since I was a young child, I loved performing simple card tricks for my family and friends. As I grew older, I began to use it as an icebreaker with strangers, relishing the joy of making someone laugh in amazement. In high school, however, I realized that card magic could be much more than an icebreaker or a simple hobby.", 
             paragraph2: "There's a unique moment of cheerfulness that comes when you realized you've been fooled by a good card trick. It's universal - from kids at my birthday party performances to elderly folks in a geriatric hospital, a magician's talent can invariably be used to provide an unexpected blessing. A mysterious blessing, of course - we magicians never reveal our secrets.",
-            image: OneImage
+            image: MagicImage
         },
         {id: 7, 
             title: "Computer Programming",
@@ -82,15 +81,15 @@ function Modal({open, setOpenModal, modalID}) {
         },
         {id: 11, 
             title: "BJU PMA President",
-            paragraph1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!", 
-            paragraph2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis? Ratione, at exercitationem optio tempore, expedita quis pariatur, porro numquam nulla voluptatem voluptates consequatur facilis culpa enim! Cumque laborum, et incidunt, perspiciatis voluptatibus dignissimos nihil cum quasi repellendus commodi possimus!",
-            image: OneImage
+            paragraph1: "Just before the end of the 2022 spring semester, my classmates elected me to lead our university's Pre-Medical Association for the 2022-2023 academic school year. Though this experience will be a new one, I'm fortunate to have an excellent, experienced officer crew working alongside me to brainstorm and organize events.", 
+            paragraph2: "My goal is for the PMA to promote a unified, engaged spirit between its members while sparking a passion for the healthcare field in each individual. We'll work to accomplish this by organizing meals, trips, special speaker events, and workshops with current medical students, building relationships and providing opportunities for valuable connections along the way.",
+            image: PMAImage
         },
         {id: 12, 
             title: "Discipleship Group Leader",
             paragraph1: "During my time as an upperclassman, I've been blessed with the opportunity to mentor 10 young men on my dormitory hall by working to foster maturity, discipline, and conflict-resolving skills in thier lives. Outside of our official meetings 2-3 times a week, our daily proximity to each other provides unique opportunities for constructive friendship and growth.", 
             paragraph2: "I will always be indebted to the faithful mentors that have poured thier time and energy into my life, particularly my parents and professors. This kind of sacrificial servanthood is something that I hope to pass on to the men in my discipleship group, each of whom will likely have opportunities for leadership and influence in the future.",
-            image: OneImage
+            image: DGImage
         }
     ]
     useEffect(() => {
