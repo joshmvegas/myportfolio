@@ -21,13 +21,13 @@ function Modal({open, setOpenModal, modalID}) {
     const modalData = [
         {id: 1, 
             title: "Crisis Counselor",
-            paragraph1: "When Covid-19 shut the world down early in 2020, I began to look online for a volunteer experience that I could invest in over the summer. Counseling for Crisis Text Line was the perfect solution, allowing me to connect dynamically with individuals who needed support without the requirement of traveling to a physical location.", 
+            paragraph1: "When Covid-19 shut the world down early in 2020, I began to look for an online volunteer experience that I could invest in over the summer. Counseling for Crisis Text Line was the perfect solution, allowing me to connect dynamically with individuals who needed support without the requirement of traveling to a physical location.", 
             paragraph2: "Since that summer, I've had the incredible honor of chatting with over 350 texters, working through issues like suicidal ideation, isolation, and eating disorders. Not every conversation ends perfectly, and sometimes the job can be draining. Yet the countless rewarding moments are well worth the effort it takes to turn a hot moment into a cool calm.",
             image: CTLImage
         },
         {id: 2, 
             title: "Blood Donor Ambassador",
-            paragraph1: "I started working with the Red Cross as a junior in high school, marking the start of one of my first long-term volunteer experiences. My responsibility as a blood donor ambassador was simple - help the blood donors with everything... except the actual donation process. That, I thought to myself, was something I could do.",
+            paragraph1: "I started working with the Red Cross as a junior in high school, marking the start of one of my first long-term volunteer experiences. My responsibility as a blood donor ambassador was simple: help the blood donors with everything... except for the blood drawing itself. That, I thought to myself, was something I could do.",
             paragraph2: "I assisted donors with preliminary forms, helped answer general questions, and - my favorite part - got to hand out prizes and snacks at the end. In the process, I had the chance to work with dozens of incredible volunteers and nurses, each of whom was invested in the common goal of providing life-saving resources to those in need.",
             image: RedCrossImage
         },
@@ -39,25 +39,25 @@ function Modal({open, setOpenModal, modalID}) {
         },
         {id: 4, 
             title: "MedEx Campus Ambassador",
-            paragraph1: "After completing a summer in Tier 3 of MedEx Academy, I was both impressed and excited with how valuable the program was for undergraduate students looking for medical exposure. Having been given the chance to participate in such a memorable experience, it was an honor to be able to represent and promote the program on campus.", 
+            paragraph1: "After completing a summer in Tier 3 of MedEx Academy, I was both impressed and excited with how valuable the program was for undergraduate students looking for medical exposure. After being given the chance to participate in such a memorable experience, it was an honor to represent and promote the program on campus.", 
             paragraph2: "I worked with three other ambassadors to spread awareness about MedEx among my peers. We gave informational seminars for student clubs, organized application help sessions, and held interview workshops throughout the year. To round out the process, we assisted the program's admissions staff by holding zoom interviews for students from other schools.",
             image: MedexImage
         },
         {id: 5, 
             title: "Sports & Fitness",
-            paragraph1: "Playing sports and working out are two of my favorite ways to keep the mind and body healthy, especially during the stress of a busy semester. Though I'm a basketball player at heart (you'll find me on the court weekly, especially when the intermural season rolls around), I'll play any sport if it lets me spend time with friends.", 
+            paragraph1: "Playing sports and working out are two of the best ways to keep the mind and body healthy, especially during the stress of a busy semester. Though I'm a basketball player at heart (you'll find me on the court weekly, especially when our intermural season rolls around), I'll play any sport if it lets me spend time with friends.", 
             paragraph2: "In addition, crafting and following daily workout routines has helped me stay disciplined and focused while motivating me to eat and sleep well. This combination of exercise, healthy eating, and prioritizing sleep has allowed me to remain efficient and driven throughout college, testifying to the power of setting and maintaining good habits.",
             image: SportsImage
         },
         {id: 6, 
             title: "Sleight-of-Hand Magic",
-            paragraph1: "Since I was a young child, I loved performing simple card tricks for my family and friends. As I grew older, I began to use it as an icebreaker with strangers, relishing the joy of making someone laugh in amazement. In high school, however, I realized that card magic could be much more than an icebreaker or a simple hobby.", 
+            paragraph1: "From a very young age, I've loved performing simple card tricks for my family and friends. As I grew older, I began to use them as an icebreaker with strangers, relishing the joy of making someone laugh in amazement. In college, however, I realized that card magic could be much more than an icebreaker or a simple hobby.", 
             paragraph2: "There's a unique moment of cheerfulness that comes when you realized you've been fooled by a good card trick. It's universal - from kids at my birthday party performances to elderly folks in a geriatric hospital, a magician's talent can invariably be used to provide an unexpected blessing. A mysterious blessing, of course - we magicians never reveal our secrets.",
             image: MagicImage
         },
         {id: 7, 
             title: "Computer Programming",
-            paragraph1: "One of my most recent pursuits has been to learn how to code and design websites with JavaScript, the most popular front-end programming language in the world. In fact, the website you're perusing right now is the product of a joint project of mine with my incredibly talented younger brother David - a fullstack software dev.", 
+            paragraph1: "One of my most recent pursuits has been to learn how to code and design websites with JavaScript, the most popular front-end programming language in the world. In fact, the website you're perusing right now is the product of a joint project with my incredibly talented younger brother David - a fullstack software dev.", 
             paragraph2: "Begininng in the fall of 2021, we've collaborated to design and publish this portfolio from scratch. While I'm still just a beginner when it comes to computer programming, I've learned an incredible amount from David in the dozens of hours that we've spent building, modifying, and adapting joshvenegas.com together.",
             image: CodingImage
         },
@@ -69,7 +69,7 @@ function Modal({open, setOpenModal, modalID}) {
         },
         {id: 9, 
             title: "Proprietor of Venegas Yard Care",
-            paragraph1: "For 6 years, I've run a small landscaping business in my hometown. I believe that the best workers have only one gear - a combination of hard work and patience. By carrying a vision for every project, my guarantee to each client is to surpass expectations, going the extra mile to produce strikingly aesthetic home property.", 
+            paragraph1: "For 6 years, I've run a small landscaping business in my hometown. I believe that the best workers have only one gear - a combination of hard work and patience. By carrying a vision for every project, my guarantee to my clients is to surpass expectations, going the extra mile to produce strikingly aesthetic home property.", 
             paragraph2: "VYC is dedicated to transformation, diligence, and loyalty; long-term clients are the core of my business. These relationships are the benefit of established credibility and mutual respect, both of which have been earned by building trust the hard way. No need to call a commercial business - where there's a will, a rake, and a chainsaw, there's a way!",
             // NO IMAGE NEEDED HERE
         },
@@ -87,7 +87,7 @@ function Modal({open, setOpenModal, modalID}) {
         },
         {id: 12, 
             title: "Discipleship Group Leader",
-            paragraph1: "During my time as an upperclassman, I've been blessed with the opportunity to mentor 10 young men on my dormitory hall by working to foster maturity, discipline, and conflict-resolving skills in thier lives. Outside of our official meetings 2-3 times a week, our daily proximity to each other provides unique opportunities for constructive friendship and growth.", 
+            paragraph1: "During my time as an upperclassman, I've been blessed with the opportunity to mentor a group of young men on my dormitory hall by working to foster maturity, discipline, and conflict-resolving skills in thier lives. Outside of our official meetings 2-3 times a week, our daily proximity to each other provides unique opportunities for constructive friendship and growth.", 
             paragraph2: "I will always be indebted to the faithful mentors that have poured thier time and energy into my life, particularly my parents and professors. This kind of sacrificial servanthood is something that I hope to pass on to the men in my discipleship group, each of whom will likely have opportunities for leadership and influence in the future.",
             image: DGImage
         }

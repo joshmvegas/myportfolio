@@ -62,7 +62,7 @@ function Blogs() {
                                 <h4 className="blog-date">Jun 27th, 2021</h4>
                                 <h2 className="blog-read">11 Minute Read</h2>
                                 <div className="blog-likes">
-                                    <p>ANATOMY</p>
+                                    <p>PHYSIOLOGY</p>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ function Blogs() {
                                 <h4 className="blog-date">Nov 23, 2021</h4>
                                 <h2 className="blog-read">13 Minute Read</h2>
                                 <div className="blog-likes">
-                                    <p>PHYSIOLOGY</p>
+                                    <p>ANATOMY</p>
                                 </div>
                             </div>
                         </div>

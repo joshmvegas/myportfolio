@@ -77,7 +77,7 @@ function Skills() {
                         <div id="CSSSkill" className="skills-item responsiveSkillsItem3">
                             <img src={FirstAidImg} alt="First Aid" />
                             <h2>First Aid</h2>
-                            <p>I believe in effective preparation to minimize tragedy</p>
+                            <p>Effective preparation is key to helping minimize tragedy</p>
                         </div>
                     </div>
                 </div>
@@ -86,14 +86,14 @@ function Skills() {
                     <div className="skills-content">
                         <div id="NodeSkill" className="skills-item">
                             <img src={EmotionImg} alt="Emotional Stability" />
-                            <h2>Emotion Stability</h2>
-                            <p>A commitment to remaining capable and productive through adversity</p>
+                            <h2>Stability</h2>
+                            <p>A commitment to staying calm, competent, and productive through adversity</p>
                         </div>
                         <div id="NodeSkill" className="skillSeparator"></div>
                         <div id="MongoDBSkill" className="skills-item">
                             <img src={DisciplineImg} alt="Discipline" />
                             <h2>Discipline</h2>
-                            <p>Critical for every area of my life, from academics to diet & fitness</p>
+                            <p>A critical quality for every area of my life, from academics to diet and fitness</p>
                         </div>
                         <div id="MongoDBSkill" className="skillSeparator"></div>
                         <div id="SQLSkill" className="skills-item">
@@ -157,17 +157,17 @@ function Skills() {
                             <h3>Greenville, South Carolina</h3>
                             <h1>B.S. Pre-Med/Pre-Dent</h1>
                             <h4>BOB JONES UNIVERSITY</h4>
-                            <p>A highly acknowledged & accredited liberal arts university and proven leader in premedical education.</p>
+                            <p>A highly acknowledged & accredited liberal arts university and proven leader in Pre-Medical education.</p>
                             <div className="flatiron-description-box">
                                 <p>Some things I did as a student:</p>
                                 <ul>
-                                    <li>Solidified a strong understanding of the sciences</li>
+                                    <li>Built a thorough framework for critical thinking</li>
                                     <li>Collaborated on papers and presentations with a team</li>
                                     <li>Engaged in medical ethics training</li>
-                                    <li>Built a thorough framework for critical thinking</li>
+                                    <li>Earned the equivalent of a Biology major with a Chemistry minor</li>
                                 </ul>
                             </div>
-                            <p>By May 2023, I will have spent 4 years full time at Bob Jones University. I am forever indebted to the devoted peers and professors that make this experience so valuable.</p>
+                            <p>By May 2023, I will have spent 4 years full time at Bob Jones University. I am deeply grateful for the devoted peers and professors that make this experience so valuable.</p>
                         </div>
                     </div>
                     <div ref={ed2Ref} className="cert-item" id={ed2InView ? "cert2-active" : undefined}>
@@ -194,7 +194,7 @@ function Skills() {
                         </div>
                         <div className="cert-text-box">
                             <h1 className='cert-title'>QPR Suicide Prevention</h1>
-                            <p>Question, Persuade, Refer. By partnering with Mental Health America to adress mental health conditions in their earliest stages, I work to avert the most critical situations that can lead to irreversible decisions</p>
+                            <p>Question, Persuade, Refer. By partnering with Mental Health America to address mental health conditions in their earliest stages, I work to avert critical situations that can lead to irreversible decisions.</p>
                         </div>
                     </div>
                 </div>
