@@ -18,7 +18,8 @@ function Contact() {
             background: '#444',
             backdrop: `rgba(0,0,0,0.5)`
         })
-        emailjs.sendForm('service_655skfr', 'service_655skfr', formRef.current, 'N7KmmM_xVJaXXWuEA')
+        emailjs.sendForm('service_a2avd1f', 'template_4hjtm3e', formRef.current, 'N7KmmM_xVJaXXWuEA')
+        .then(console.log(formRef))
         .then(e.target.reset())
         .catch (error => console.log(error.text))
     }
