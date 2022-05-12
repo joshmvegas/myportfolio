@@ -88,7 +88,7 @@ function Modal({open, setOpenModal, modalID}) {
         {id: 12, 
             title: "Discipleship Group Leader",
             paragraph1: "During my time as an upperclassman, I've been blessed with the opportunity to mentor a group of young men on my dormitory hall by working to foster maturity, discipline, and conflict-resolving skills in thier lives. Outside of our official meetings 2-3 times a week, our daily proximity to each other provides unique opportunities for constructive friendship and growth.", 
-            paragraph2: "I will always be indebted to the faithful mentors that have poured thier time and energy into my life, particularly my parents and professors. This kind of sacrificial servanthood is something that I hope to pass on to the men in my discipleship group, each of whom will likely have opportunities for leadership and influence in the future.",
+            paragraph2: "I will always be indebted to the faithful mentors that have poured their time and energy into my life, particularly my parents and professors. This kind of sacrificial servanthood is something that I hope to pass on to the men in my discipleship group, each of whom will likely have opportunities for leadership and influence in the future.",
             image: DGImage
         }
     ]
