@@ -88,13 +88,13 @@
     margin-top: 3rem;
 }
 .extraModal-title {
-    font-size: 3.75rem;
+    font-size: 4rem;
     padding: 1.25rem 0 4.5rem;
 }
 .extraModal-description {
-    font-size: 1.85rem;
+    font-size: 2rem;
     line-height: 2.85rem;
-    padding: 0 3.5rem 2.5rem;
+    padding: 0 3.5rem 2.75rem;
     text-align: center;
 }
 
@@ -170,19 +170,35 @@
         padding: 1.5rem;
         margin-left: -1rem;
     }
-}
-@media (max-width: 1279px) and (min-height: 801px) {
-    .extraModal-description {
-        margin-bottom: 2.5rem;
-        font-size: 2.125rem;
-        line-height: 3rem;
+    .extraImages-wrapper img {
+        margin: .5rem 0;
+        margin-right: -.75rem;
+        width: 40rem;
+        height: auto;
     }
 }
 @media (max-width: 1250px) {
     .extraModal-description {
         margin-bottom: 1.5rem;
-        font-size: 1.9rem;
+        font-size: 1.85rem;
         line-height: 2.85rem;
+    }
+    .extraModal-title {
+        font-size: 3.75rem;
+    }
+    .extraYard h1 {
+        font-size: 2.425rem;
+        text-align: center;
+    }
+    .extraYard p {
+        font-size: 1.35rem;
+    }
+    .extraYardImgCompare {
+        width: 35rem;
+        height: 25.5rem;
+    }
+    .extraYardWrap {
+        margin-left: 2.5rem;
     }
 }
 @media (max-width: 1200px) {
@@ -211,7 +227,7 @@
     }
     .extraModal-wrapper {
         width: 100vw;
-        height: 120rem;
+        height: 105rem;
         border-radius: 0;
         margin-left: 0;
         justify-content: flex-end;
@@ -220,17 +236,22 @@
     }
     .extraModal-text-box {
         margin-top: 2.5rem;
-        height: 60rem;
+        height: 57.5rem;
         width: 60rem;
         margin-left: 0;
     }
     .extraModal-image-wrapper {
-        height: 50rem;
+        height: 42.5rem;
         margin-bottom: 2.5rem;
         width: 100%;
     }
     .extraImages-wrapper {
         width: 60rem;
+    }
+    .extraImages-wrapper img {
+        margin-top: 2rem;
+        margin-right: 0rem;
+        width: 52.5rem;
     }
 }
 @media (max-width: 750px) {
@@ -242,7 +263,7 @@
 }
 @media (max-width: 650px) {
     .extraModal-wrapper {
-        height: 106.5rem;
+        height: 100rem;
         gap: 2rem;
     }
     #extraLeave-modal {
@@ -252,7 +273,7 @@
     }
     .extraModal-text-box {
         margin-top: 4rem;
-        height: 55rem;
+        height: 52.5rem;
         width: 40rem;
     }
     .extraModal-image-wrapper {
@@ -266,25 +287,31 @@
         line-height: 1.65;
     }
     .extraModal-title {
-        font-size: 3.125rem;
+        font-size: 2.65rem;
+        padding: 1.25rem 0 2.75rem;
     }
     .extraModal-description {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
         line-height: 2.35rem;
         height: fit-content;
         margin-bottom: 1rem;
     }
+    .extraImages-wrapper img {
+        margin-top: 0;
+        margin-right: 0rem;
+        width: 38.5rem;
+    }
 }
 @media (max-width: 480px) {
     .extraModal-wrapper {
-        height: 105rem;
+        height: 102.5rem;
     }
     #extraLeave-modal {
         top: 1.75rem;
         right: 1.75rem;
     }
     .extraModal-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .extraModal-text-box {
         height: 55rem;
@@ -296,5 +323,14 @@
     }
     .extraImages-wrapper {
         width: 36rem;
+    }
+    .extraModal-description {
+        font-size: 1.4rem;
+    }
+    .extraYard h1 {
+        font-size: 2.35rem;
+    }
+    .extraImages-wrapper img {
+        width: 35rem;
     }
 }

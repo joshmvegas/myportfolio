@@ -50,7 +50,6 @@
     opacity: 0;
     animation: showup 2s ease 4.25s forwards;
 }
-
 @keyframes showup {
     0% {opacity: 0}
     100% {opacity: 1}
@@ -63,7 +62,7 @@
 @keyframes reveal {
     0% {opacity: 0; width: 0px}
     50% {opacity: 1; width: 0px}
-    100% {width: 630px}
+    100% {width: 620px}
 }
 .algo-wrapper {
     display: grid;
@@ -298,6 +297,33 @@
         width: 42rem;
         height: 25.5rem;
     }
+    #extracurricularTabNumTwo h2 {
+        font-size: 2rem;
+    }
+    .algo-description {
+        font-size: 1.65rem;
+    }
+    @keyframes reveal {
+        0% {opacity: 0; width: 0px}
+        50% {opacity: 1; width: 0px}
+        100% {width: 560px}
+    }
+    #extracurricularTabNumTwo {
+        margin: .5rem 0;
+    }
+    #extracurricularTabNumTwo #extracurricular-tab {
+        font-size: 2.35rem;
+    }
+    .extracurricularImage {
+        height: 3.5rem !important;
+        width: auto;
+    }
+    .extracurricular-item h2 {
+        font-size: 1.75rem;
+    }
+    #extracurricular-tab {
+        font-size: 1.85rem;
+    }
 }
 @media (max-width: 1100px) {
     .algo-header {
@@ -317,14 +343,32 @@
         width: 38rem;
         height: 21.5rem;
     }
+    #extracurricularTabNumTwo h2 {
+        font-size: 1.85rem;
+    }
+    #extracurricularTabNumTwo img {
+        height: 4.35rem !important;
+        width: auto;
+    }
+    #extracurricularTabNumTwo #extracurricular-tab {
+        font-size: 2.25rem;
+    }
 }
 @media (max-width: 950px) {
     .algo-header {
-        font-size: 5rem;
+        font-size: 4.75rem;
     }
     .algo-description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         margin-top: 2.25rem;
+        margin-bottom: 2.25rem;
         font-size: 1.65rem;
+        line-height: 2.325rem;
+        text-align: center;
+        padding: 0 3.25rem;
     }
     .algo-container {
         padding: 2rem 0 2rem 0;
@@ -334,68 +378,46 @@
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
         gap: 2rem;
-        margin-top: 3rem;
+        margin-top: 1.25rem;
+    }
+    #ralph_waldo_emerson {
+        animation: showup 2s ease 3.5s forwards;
+    }
+    #ralph_waldo_emerson::before {
+        display: block;
+        content: "\a";
+        white-space: pre;
+        margin-top: -2rem;
+    }
+    #algo-slide2 {
+        opacity: 0;
+        width: 400px;
+        animation: reveal 2.5s ease 2.5s forwards;
     }
     @keyframes reveal {
-        0% {opacity: 0; width: 0px}
-        50% {opacity: 1; width: 0px}
-        100% {width: 225px}
-    }
-    @-webkit-keyframes reveal {
-        0% {opacity: 0; width: 0px}
-        50% {opacity: 1; width: 0px}
-        100% {width: 225px}
-    }
-}
-@media (max-width: 650px) {
-    .algo-header {
-        font-size: 4.25rem;
-    }
-    .algo-description {
-        margin-top: 2.25rem;
-        font-size: 1.65rem;
-        text-align: center;
-        padding: 0 3.25rem;
-        height: 4.5rem;
+        0% {opacity: 0; width: 400px}
+        50% {opacity: 1; width: 400px}
+        100% {width: 400px; opacity: 1}
     }
     @keyframes slidein {
         0% {margin-left: 0px}
         50% {margin-left: 0px}
         100% {margin-left: 0px}
     }
-    @-webkit-keyframes slidein {
-        0% {margin-left: 0px}
-        50% {margin-left: 0px}
-        100% {margin-left: 0px}
+    #extracurricularTabNumTwo h2 {
+        font-size: 1.75rem;
     }
-    .algo-container {
-        padding: 2rem 0 2rem 0;
+    #extracurricularTabNumTwo img {
+        height: 4.25rem !important;
+        width: auto;
     }
-    .algo-wrapper {
-        width: 95%;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-        gap: 2rem;
-        margin-top: 3rem;
-    }
-    #algo-slide2 {
-        opacity: 0; 
-        width: 225px;
-        animation: reveal 2.5s ease 2.5s forwards;
-    }
-    @keyframes reveal {
-        0% {opacity: 0; width: 225px}
-        50% {opacity: 1; width: 225px}
-        100% {width: 225px; opacity: 1}
-    }
-    @-webkit-keyframes reveal {
-        0% {opacity: 0; width: 225px}
-        50% {opacity: 1; width: 225px}
-        100% {width: 225px; opacity: 1}
+}
+@media (max-width: 650px) {
+    .algo-header {
+        font-size: 4.25rem;
     }
 }
 @media (max-width: 480px) {
-
     .algo-item {
         width: 36rem;
     }
@@ -406,5 +428,31 @@
     .algo-description {
         font-size: 1.55rem;
         padding: 0;
+    }
+    #extracurricularTabNumTwo h2 {
+        font-size: 1.6rem;
+    }
+    #extracurricularTabNumTwo img {
+        height: 3.75rem !important;
+        width: auto;
+    }
+    #extracurricularTabNumTwo #extracurricular-tab {
+        font-size: 2rem;
+    }
+    .extracurricularImage {
+        height: 3.25rem !important;
+    }
+    .extracurricular-item h2 {
+        font-size: 1.6rem;
+    }
+    #extracurricular-tab {
+        font-size: 1.65rem;
+    }
+    .algo-item p:last-child {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .algo-container {
+        justify-content: center;
     }
 }

@@ -68,7 +68,7 @@ function Modal({open, setOpenModal, modalID}) {
             image: CookingImage
         },
         {id: 9, 
-            title: "Proprietor of Venegas Yard Care",
+            title: "Owner of Venegas Yard Care",
             paragraph1: "For 6 years, I've run a small landscaping business in my hometown. I believe that the best workers have only one gear - a combination of hard work and patience. By carrying a vision for every project, my guarantee to my clients is to surpass expectations, going the extra mile to produce strikingly aesthetic home property.", 
             paragraph2: "VYC is dedicated to transformation, diligence, and loyalty; long-term clients are the core of my business. These relationships are the benefit of established credibility and mutual respect, both of which have been earned by building trust the hard way. No need to call a commercial business - where there's a will, a rake, and a chainsaw, there's a way!",
             // NO IMAGE NEEDED HERE
@@ -138,4 +138,4 @@ function Modal({open, setOpenModal, modalID}) {
     )
 }
 
-export default Modal;
+export default Modal
