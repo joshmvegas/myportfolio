@@ -17,9 +17,6 @@
 @keyframes portFade {
     100% {opacity: 1}
 }
-@-webkit-keyframes portFade {
-    100% {opacity: 1}
-}
 .port-header {
     position: relative;
     color: white;
@@ -285,6 +282,9 @@
         grid-template-rows: auto auto auto auto;
         grid-template-columns: auto auto auto;
     }
+    .port-headline {
+        font-size: 1.6rem;
+    }
 }
 @media (max-width: 1250px) {
     .work-container {
@@ -297,6 +297,10 @@
     .port-title {
         font-size: 3.5rem;
     }
+    .port-headline {
+        font-size: 1.5rem;
+        padding: 1.5rem 1rem 2rem;
+    }
 }
 @media (max-width: 1100px) {
     .work-container {
@@ -304,6 +308,11 @@
     }
 }
 @media (max-width: 950px) {
+    .port-headline {
+        font-size: 1.65rem;
+        line-height: 1.25;
+        padding: 1.5rem 1.5rem 2rem;
+    }
     .work-container {
         padding: 2rem 0 2rem 0;
     }
@@ -326,7 +335,7 @@
     }
     .port-item {
         flex-direction: column;
-        height: 40rem;
+        height: 45rem;
         width: 100%;
         background-color: rgba(0, 0, 0, .35);
     }
@@ -337,20 +346,8 @@
         80% {opacity: 0}
         100% {width: 35rem; opacity: 1}
     }
-    @-webkit-keyframes portAnimBox {
-        100% {width: 35rem}
-    }
-    @-webkit-keyframes portAnimWrap {
-        80% {opacity: 0}
-        100% {width: 35rem; opacity: 1}
-    }
     .portGifPopup {
         display: none;
-    }
-    .port-headline {
-        font-size: 1.75rem;
-        line-height: 1;
-        padding: 1.5rem 0;
     }
     .port-title-site {
         padding-top: .25rem;
@@ -373,13 +370,14 @@
         height: 20rem;
     }
     .port-gif {
-        right: 0;
         height: 100%;
         width: 100%;
         opacity: 1 !important;
     }
     .port-gif-logo {
-        display: none;
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
     }
 }
 @media (max-width: 800px) {
@@ -403,10 +401,16 @@
         grid-template-columns: auto;
         margin-top: 3rem;
     }
+    .port-item {
+        height: 50rem;
+    }
+    .port-header {
+    font-size: 4.75rem;
+}
 }
 @media (max-width: 480px) {
     .port-header {
-        font-size: 4.5rem;
+        font-size: 3.75rem;
     }
     .other-header {
         font-size: 4.35rem;
@@ -426,22 +430,19 @@
         margin-top: 2.5rem;
     }
     .port-item {
-        height: 42.5rem;
+        height: 55rem;
     }
     @keyframes portAnimItem {
         60% {transform: scale(.9)}
         100% {width: 35rem; transform: scale(1)}
     }
-    @-webkit-keyframes portAnimItem {
-        60% {-webkit-transform: scale(.9)}
-        100% {width: 35rem; -webkit-transform: scale(1)}
-    }
     .port-title {
-        font-size: 3rem;
+        font-size: 3.125rem;
     }
     .port-headline {
-        font-size: 1.65rem;
-        line-height: 1.2;
+        font-size: 1.5rem;
+        line-height: 1.25;
+        padding: 2rem 1rem;
     }
     .ending-work-this span:first-of-type {
         display: none;

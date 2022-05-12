@@ -11,7 +11,6 @@ import OneIntern from '../../Images/clinical-experience-images/1Intern.png'
 import TwoIntern from '../../Images/clinical-experience-images/2Intern.png'
 import ThreeIntern from '../../Images/clinical-experience-images/3Intern.png'
 
-
 function Modal({open, setOpenModal, modalID}) {
     useEffect(() => {open ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'unset'}, [open])
     const modalData = [
@@ -27,16 +26,16 @@ function Modal({open, setOpenModal, modalID}) {
         {id: 2, 
             title: "Clinical Shadowing",
             desc: "I shadowed Dr. Carles on multiple occasions in the summer of 2021 and spring of 2022, a time during which I got to know dozens of patients, RNs, NPs and other physicians. Along the way, I became familiar with many of a family doctor's challenges including medication nonadherance, work-life balance, and insurance company correspondance.", 
-            features: ["Observed and interacted with patients of all ages and backgrounds", "Developed a close relationship with Dr. Carles", "Observed various minimally invasive procedures", "Calmed infants and assisted the immobile"],
+            features: ["Interacted with patients of all ages and backgrounds", "Developed a close relationship with Dr. Carles", "Observed various minimally invasive procedures", "Calmed infants and assisted the immobile"],
             image1: OneShadow,
             image2: TwoShadow,
             image3: ThreeShadow,
             url: "https://www.chapinfamilypractice.com/our-team/doctor/details/4341/javier-e-carles-md",
         },
         {id: 3, 
-            title: "Student Medical Internship",
+            title: "Medical Internship",
             desc: "This experience is a Pre-Med requirement at Bob Jones University, designed to introduce each aspiring health professional to a variety of specialties and encounters. By the end of the semester, I had compiled over 40 hours of shadowing in 10 different departments, each of which I worked to maximize by engaging with the various practitioners.",
-            features: ["Scrubbed in for operations in the OR", "Assisted emergency physicians in a level 1 trauma center", "Analyzed hundreds of CAT scans, X-rays, and MRIs in radiology", "Followed patients from pre-op to post-op with anesthesiology"],
+            features: ["Scrubbed in for operations in the OR", "Assisted with emergencies in a level 1 trauma center", "Analyzed hundreds of CAT scans, X-rays, and MRIs", "Took patients from pre-op to post-op in anesthesiology"],
             image1: OneIntern,
             image2: TwoIntern,
             image3: ThreeIntern,

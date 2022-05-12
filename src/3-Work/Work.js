@@ -70,7 +70,6 @@ function Work() {
                             <h1 className="port-title">MedEx Academy</h1>
                             <p className="port-headline">
                                 Devoted to developing medical professionals with Prisma Health at the USC School of Medicine in Greenville, this summer experience both challenged and inspired me.
-                                <br />
                                 The connections and relationships that I developed here have deepened my respect and love for medicine while helping me recognize the value of peer and mentor support.
                             </p>
                             <div className="port-btn-box">
@@ -91,7 +90,6 @@ function Work() {
                             <h1 className="port-title">Clinical Shadowing</h1>
                             <p className="port-headline">
                                 Many meaningful moments that directed me towards healthcare came during my shadowing experiences with family physician Dr. Javier Carles (pictured on the left).
-                                <br />
                                 His commitment to establishing trust and respect with his patients was impactful, teaching me the importance of the physician-patient relationship for patient health.
                             </p>
                             <div className="port-btn-box">
@@ -112,7 +110,6 @@ function Work() {
                             <h1 className="port-title">Medical Internship</h1>
                             <p className="port-headline">
                                 A semester-long internship in the spring of 2022 exposed me to nearly a dozen medical specialties practicing all across the SC upstate with Prisma Health.
-                                <br />
                                 These included visits to family medicine, internal medicine, general and vascular surgery, neurology, radiology, and anesthesiology, among others.
                             </p>
                             <div className="port-btn-box">

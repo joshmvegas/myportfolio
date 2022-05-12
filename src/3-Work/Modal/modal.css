@@ -38,10 +38,6 @@
     60% {opacity: 1}
     100% {opacity: 1; margin-right: 0}
 }
-@-webkit-keyframes modalAnim {
-    60% {opacity: 1}
-    100% {opacity: 1; margin-right: 0}
-}
 .modal-video-wrapper {
     width: 35%;
     height: 95%;
@@ -51,9 +47,6 @@
     flex-direction: column;
 }
 @keyframes modalFade {
-    100% {opacity: 1}
-}
-@-webkit-keyframes modalFade {
     100% {opacity: 1}
 }
 .modal-video-title {
@@ -88,51 +81,24 @@
     margin-left: -10rem;
 }
 .iframe-wrapper img {
+    object-fit: cover;
     margin: .5rem 0;
-    border-radius: 1rem;
+    border-radius: .75rem;
+    width: 32.5rem;
+    height: 31%;
 }
 .iframe-wrapper img:nth-child(1) {
-    width: 31.5rem;
     opacity: 0;
     animation: modalFade 1s ease-in-out 1s forwards;
 }
 .iframe-wrapper img:nth-child(2) {
-    width: 31.5rem;
     margin-left: 12rem;
     opacity: 0;
     animation: modalFade 1s ease-in-out 1.3s forwards;
 }
 .iframe-wrapper img:nth-child(3) {
-    width: 31.5rem;
     opacity: 0;
     animation: modalFade 1s ease-in-out 1.6s forwards;
-}
-.modal-tech-wrapper {
-    background-color: #373737;
-    width: 50rem;
-    padding: 1rem 2rem 1.25rem;
-    border-radius: .5rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-.modal-tech-wrapper h1 {
-    text-align: center;
-    font-size: 2.25rem;
-    font-weight: 600;
-    padding: .2rem 0 .8rem;
-    color: #53a7d1;
-}
-.modal-techs {
-    font-size: 1.65rem;
-    font-weight: 300;
-    line-height: 2.65rem;
-    word-spacing: 2px;
-    color: #ddd;
-    font-style: italic;
-}
-.modal-techs span {
-    font-size: 2rem;
-    font-weight: 800;
-    font-style: normal;
 }
 .modal-text-wrapper {
     border-radius: .5rem;
@@ -151,9 +117,6 @@
 }
 @keyframes modalScale {
     100% {opacity: 1; transform: scale(1)}
-}
-@-webkit-keyframes modalScale {
-    100% {opacity: 1; -webkit-transform: scale(1)}
 }
 .modal-header {
     align-self: center;
@@ -196,7 +159,7 @@
 .modal-features {
     padding: 1.25rem 0 2.5rem;
     border-bottom: 1px solid gray;
-    padding-left: 5rem;
+    padding-left: 2.5rem;
 }
 .modal-feature {
     font-size: 1.75rem;
@@ -219,6 +182,7 @@
 	text-transform: uppercase;
     text-decoration: none;
 	padding: 1.25rem 4rem;
+    margin-top: 1.25rem;
 	color: white;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
 	cursor: pointer;
@@ -269,54 +233,6 @@
         width: 85%;
         padding: 1.5rem;
     }
-    .modal-video-wrapper {
-        width: 45%;
-    }
-    .modal-text-wrapper {
-        width: 50%;
-        margin-left: 3.5%;
-    }
-}
-@media (max-width: 1350px) {
-    .modal-video-wrapper {
-        width: 42.5%;
-    }
-    .modal-text-wrapper {
-        width: 52.5%;
-        margin-left: 3%;
-    }
-    .modal-video-title {
-        font-size: 3.25rem;
-        line-height: 2.55rem;
-        margin-top: 2rem;
-    }
-    .modal-video-title span:first-of-type {
-        font-size: 1.75rem;
-    }
-    .modal-video-title span:last-of-type {
-        font-size: 2.75rem;
-    }
-    .iframe-wrapper {
-        width: 45rem;
-    }
-    .iframe-wrapper iframe {
-        height: 30rem;
-    }
-    .modal-tech-wrapper {
-        width: 45rem;
-        padding: 1rem 1.5rem 1.25rem;
-    }
-    .modal-tech-wrapper h1 {
-        font-size: 2.2rem;
-        padding: .2rem 0 .8rem;
-    }
-    .modal-techs {
-        font-size: 1.5rem;
-        word-spacing: 1px;
-    }
-    .modal-techs span {
-        font-size: 1.85rem;
-    }
 }
 @media (max-width: 1300px) {
     #leave-modal {
@@ -327,15 +243,29 @@
     .modal-wrapper {
         height: 90%;
         width: 90%;
-        padding: 1.5rem;
+        padding: 1rem;
         margin-left: -1rem;
     }
-}
-@media (max-width: 1279px) and (min-height: 801px) {
+    .modal-feature {
+        font-size: 1.65rem;
+        line-height: 2.25rem;
+    }
+    .modal-features {
+        padding: 1.25rem 0 2.5rem;
+        border-bottom: 1px solid gray;
+        padding-left: 2.5rem;
+    }
+    .modal-title {
+        font-size: 4.25rem;
+    }
     .modal-description {
-        margin-bottom: 2.5rem;
-        font-size: 2.125rem;
-        line-height: 3rem;
+        font-size: 1.65rem;
+        line-height: 2.5rem;
+        height: 38.5%;
+        margin-bottom: 2rem;
+    }
+    .modal-text-wrapper {
+        margin-right: -3.5%;
     }
 }
 @media (max-width: 1250px) {
@@ -345,50 +275,6 @@
     }
     .modal-video-title span:last-of-type {
         font-size: 2.65rem;
-    }
-    .modal-description {
-        margin-bottom: 1.5rem;
-        font-size: 1.9rem;
-        line-height: 2.85rem;
-    }
-}
-@media (max-width: 1200px) {
-    .modal-video-wrapper {
-        width: 40%;
-    }
-    .modal-text-wrapper {
-        width: 55%;
-        margin-left: 3.5%;
-    }
-    .modal-video-title {
-        font-size: 2.75rem;
-        line-height: 2.6rem;
-        margin-top: 4.5rem;
-    }
-    .modal-video-title span:first-of-type {
-        font-size: 1.7rem;
-    }
-    .modal-video-title span:last-of-type {
-        font-size: 2.6rem;
-    }
-    .iframe-wrapper {
-        width: 40rem;
-    }
-    .iframe-wrapper iframe {
-        height: 26.5rem;
-    }
-    .modal-tech-wrapper {
-        width: 40rem;
-    }
-    .modal-tech-wrapper h1 {
-        font-size: 2rem;
-    }
-    .modal-techs {
-        font-size: 1.35rem;
-        word-spacing: 0px;
-    }
-    .modal-techs span {
-        font-size: 1.65rem;
     }
 }
 @media (max-width: 1100px) {
@@ -427,26 +313,17 @@
         display: none;
     }
     .iframe-wrapper {
-        width: 60rem;
+        margin-left: 0rem;
+        width: 100%;
     }
-    .iframe-wrapper iframe {
-        height: 35rem;
-        margin-bottom: 1.5rem;
+    .iframe-wrapper img {
+        margin: 0;
+        border-radius: .5rem;
+        width: 28.5rem;
+        height: 32%;
     }
-    .modal-tech-wrapper {
-        width: 60rem;
-        padding: 1.75rem 2rem 2rem;
-    }
-    .modal-tech-wrapper h1 {
-        font-size: 2.25rem;
-        padding: .2rem 0 .8rem;
-    }
-    .modal-techs {
-        font-size: 1.65rem;
-        word-spacing: 2px;
-    }
-    .modal-techs span {
-        font-size: 2rem;
+    .iframe-wrapper img:nth-child(2) {
+        margin-left: 0rem;
     }
 }
 @media (max-width: 750px) {
@@ -470,6 +347,7 @@
         margin-top: 4rem;
         height: 55rem;
         width: 40rem;
+        margin-left: -1.5rem;
     }
     .modal-video-wrapper {
         height: 40rem;
@@ -477,46 +355,9 @@
     .iframe-wrapper {
         width: 40rem;
     }
-    .iframe-wrapper iframe {
-        height: 27.5rem;
-    }
-    .modal-tech-wrapper {
-        width: 40rem;
-    }
-    .modal-tech-wrapper h1 {
-        font-size: 1.65rem;
-    }
-    .modal-techs {
-        font-size: 1.25rem;
-        word-spacing: 1px;
-    }
-    .modal-techs span {
-        font-size: 1.65rem;
-    }
-    .modal-tool {
-        height: 3rem;
-        width: 3rem;
-    }
-    .modal-visit-site {
-        height: 8rem;
-    }
     .modal-title-wrapper {
         margin-top: 1.75rem;
         line-height: 1.65;
-    }
-    .modal-title-wrapper img {
-        height: 4rem;
-        width: 4rem;
-        margin-right: 1.25rem;
-    }
-    .modal-title {
-        font-size: 3.125rem;
-    }
-    .modal-link1 {
-        font-size: 1.55rem;
-    }
-    .modal-link2 {
-        font-size: 2.25rem;
     }
     .modal-description {
         font-size: 1.5rem;
@@ -528,13 +369,14 @@
         font-size: 1.65rem;
     }
     .modal-feature {
-        font-size: 1.5rem;
-        line-height: 2.2rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
     }
     .modal-visit-btn {
         font-size: 1.5rem;
         letter-spacing: 5px;
         padding: 1.25rem 3.25rem;
+        margin-top: -.75rem;
     }
 }
 @media (max-width: 480px) {
@@ -545,38 +387,30 @@
         top: 1.75rem;
         right: 1.75rem;
     }
-    .modal-title-wrapper img {
-        height: 3.75rem;
-        width: 3.75rem;
-        margin-right: 1rem;
+    .modal-description {
+        font-size: 1.375rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    .modal-text-wrapper {
+        height: 48.5rem;
+        width: 36rem;
+    }
+    .modal-feature {
+        font-size: 1.235rem;
+        line-height: 1.75rem;
+    }
+    .modal-features {
+        padding-left: 1.75rem;
     }
     .modal-title {
         font-size: 3rem;
     }
-    .modal-text-wrapper {
-        height: 55rem;
-        width: 36rem;
-    }
-    .modal-video-wrapper {
-        margin-top: 2rem;
-        height: 36rem;
-    }
     .iframe-wrapper {
-        width: 36rem;
+        width: 100%;
+        height: 47.5rem;
     }
-    .iframe-wrapper iframe {
-        height: 25rem;
-    }
-    .modal-tech-wrapper {
-        width: 36rem;
-        padding: 1rem 1.25rem 1.25rem;
-    }
-    .modal-techs span {
-        font-size: 1.6rem;
-    }
-    .modal-techs {
-        font-size: 1.2rem;
-        line-height: 2.5rem;
-        word-spacing: 0px;
+    .iframe-wrapper img {
+        height: 31.5%;
     }
 }
