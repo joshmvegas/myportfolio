@@ -189,10 +189,6 @@
     font-weight: 900;
     font-style: italic;
 }
-.blog-likes img {
-    height: 3.5rem;
-    padding-right: .5rem;
-}
 
 /* RESPONSIVE */
 @media (max-width: 1400px) {
@@ -230,17 +226,26 @@
     #blogStartResponsive {
         display: none;
     }
+    .blog-title {
+        font-size: 2.55rem;
+    }
+    .blog-likes {
+        font-size: 1.8rem;
+    }
 }
 @media (max-width: 1100px) {
     .blogs-container {
         padding: 7.5rem 0 3.5rem 0;
     }
     .blog-title {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
         padding: .35rem 0 .75rem;
     }
 }
 @media (max-width: 950px) {
+    .blog-title {
+        font-size: 2.125rem;
+    }
     .blogs-container {
         padding: 5rem 0 3.5rem 0;
     }
@@ -262,10 +267,13 @@
     .blog-likes {
         right: 3.5rem;
     }
+    .blog-start-wrap {
+        padding: 0 2rem;
+    }
 }
 @media (max-width: 850px) {
     .blog-title {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
         padding: .125rem 0 .75rem;
         margin-left: -.75rem;
     }
@@ -298,7 +306,7 @@
         height: 15rem;
     }
     .blog-start {
-        font-size: 1.25rem;
+        font-size: 1.4rem;
     }
     .blog-start a {
         font-size: 1.5rem;
@@ -314,12 +322,8 @@
         font-size: 1.5rem;
     }
     .blog-likes {
-        right: 2.5rem;
-        font-size: 1.65rem;
-    }
-    .blog-likes img {
-        height: 2.65rem;
-        padding-right: .25rem;
+        right: 2rem;
+        font-size: 1.5rem;
     }
     .blog-facts {
         height: 5rem;
@@ -330,16 +334,16 @@
         padding: 2rem 0 2rem 0;
     }
     .blog-title {
-        font-size: 1.85rem;
-        padding: .125rem 0 .75rem;
+        font-size: 1.55rem;
+        padding: .25rem 0 1rem;
         margin-left: .25rem;
     }
     .blog-header {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .blog-description {
         margin-top: 2.25rem;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding: 0 2rem;
         text-align: center;
     }
@@ -347,7 +351,7 @@
         width: 27rem;
     }
     .blog-cards {
-        margin-top: 1rem;
+        margin-top: .5rem;
     }
     .blog-text-content {
         height: 23.5rem;
@@ -357,8 +361,8 @@
         height: 13.5rem;
     }
     .blog-start {
-        font-size: 1.35rem;
-        line-height: 1.35;
+        font-size: 1.2rem;
+        line-height: 1.5;
     }
     .blog-start a {
         font-size: 1.375rem;
@@ -389,12 +393,9 @@
         font-size: 1.2rem;
     }
     .blog-likes {
-        right: 1.5rem;
-        font-size: 1.25rem;
-    }
-    .blog-likes img {
-        height: 2rem;
-        padding-right: .15rem;
+        right: 1.125rem;
+        font-size: 1rem;
+        margin-top: 1px;
     }
     .blog-facts {
         height: 5rem;

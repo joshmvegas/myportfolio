@@ -59,7 +59,7 @@ function Blogs() {
                                 </div>
                             </div>
                             <div className="blog-facts">
-                                <h4 className="blog-date">Jun 27th, 2021</h4>
+                                <h4 className="blog-date">Jun 27, 2021</h4>
                                 <h2 className="blog-read">11 Minute Read</h2>
                                 <div className="blog-likes">
                                     <p>PHYSIOLOGY</p>
@@ -73,11 +73,11 @@ function Blogs() {
                             <div className="blog-text-content">
                                 <h1 className='blog-title'><a style={blog2 ? null : {pointerEvents: "none"}} href='https://medium.com/@venegasjoshua1/covid-19-the-deadly-viruss-mechanism-epidemiology-transmission-prevention-and-prospective-b902729a27a' target="_blank" rel="noreferrer">COVID-19: The Virus’s Prospective Future</a></h1>
                                 <div className="blog-start-wrap">
-                                    <p className='blog-start'>Over a year after the world began reeling from the effects of a tiny intracellular parasite, multiple questions and ongoing misconceptions remain. How does the virus work, and how does it spread? What is the difference between the testing methods, and what exactly are they testing? What do we know about the<span id='blogStartResponsive'> disease this virus causes, and perhaps most importantly, what can we do to prevent it? This written work addresses each of these issues using recently</span>...&nbsp; <a style={blog2 ? null : {pointerEvents: "none"}} href='https://medium.com/@venegasjoshua1/covid-19-the-deadly-viruss-mechanism-epidemiology-transmission-prevention-and-prospective-b902729a27a' target="_blank" rel="noreferrer">Read More</a></p>
+                                    <p className='blog-start'>Over a year after the world began reeling from the effects of a tiny intracellular parasite, multiple questions and ongoing misconceptions remain. How does the virus work, and how does it spread? What is the difference between the testing methods, and what exactly are they testing? What do we know about the disease this virus<span id='blogStartResponsive'> causes, and perhaps most importantly, what can we do to prevent it? This written work addresses each of these issues using recently</span>...&nbsp; <a style={blog2 ? null : {pointerEvents: "none"}} href='https://medium.com/@venegasjoshua1/covid-19-the-deadly-viruss-mechanism-epidemiology-transmission-prevention-and-prospective-b902729a27a' target="_blank" rel="noreferrer">Read More</a></p>
                                 </div>
                             </div>
                             <div className="blog-facts">
-                                <h4 className="blog-date">Apr 4th, 2021</h4>
+                                <h4 className="blog-date">Apr 4, 2021</h4>
                                 <h2 className="blog-read">23 Minute Read</h2>
                                 <div className="blog-likes">
                                     <p>IMMUNOLOGY</p>
@@ -91,11 +91,11 @@ function Blogs() {
                             <div className="blog-text-content">
                                 <h1 className='blog-title'><a style={blog3 ? null : {pointerEvents: "none"}} href='https://medium.com/@venegasjoshua1/comparing-electrical-activity-in-antagonistic-muscles-of-the-forearm-and-lower-leg-using-the-emg-20898bade821' target="_blank" rel="noreferrer">Electrical Activity in Antagonistic Muscles</a></h1>
                                 <div className="blog-start-wrap">
-                                    <p className='blog-start'>Several electrodiagnostic tests are used to monitor and diagnose muscle abnormalities. Unfortunately, methods such as needle electromyography can be both invasive and painful. Surface electromyography, however, offers a less aggressive diagnostic alternative that can also be useful for<span id='blogStartResponsive'> detecting varying levels of activity in antagonistic skeletal muscles. In this experiment, two pairs of antagonistic muscles were monitored to assess the utility of</span>...&nbsp; <a style={blog3 ? null : {pointerEvents: "none"}} href='https://medium.com/@venegasjoshua1/comparing-electrical-activity-in-antagonistic-muscles-of-the-forearm-and-lower-leg-using-the-emg-20898bade821' target="_blank" rel="noreferrer">Read More</a></p>
+                                    <p className='blog-start'>Several electrodiagnostic tests are used to monitor and diagnose muscle abnormalities. Unfortunately, methods such as needle electromyography can be both invasive and painful. Surface electromyography, however, offers a less aggressive diagnostic alternative that can also be useful for detecting<span id='blogStartResponsive'> varying levels of activity in antagonistic skeletal muscles. In this experiment, two pairs of antagonistic muscles were monitored to assess the utility of</span>...&nbsp; <a style={blog3 ? null : {pointerEvents: "none"}} href='https://medium.com/@venegasjoshua1/comparing-electrical-activity-in-antagonistic-muscles-of-the-forearm-and-lower-leg-using-the-emg-20898bade821' target="_blank" rel="noreferrer">Read More</a></p>
                                 </div>
                             </div>
                             <div className="blog-facts">
-                                <h4 className="blog-date">Nov 23th, 2021</h4>
+                                <h4 className="blog-date">Nov 23, 2021</h4>
                                 <h2 className="blog-read">13 Minute Read</h2>
                                 <div className="blog-likes">
                                     <p>ANATOMY</p>
