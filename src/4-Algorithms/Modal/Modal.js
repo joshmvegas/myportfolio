@@ -58,7 +58,7 @@ function Modal({open, setOpenModal, modalID}) {
         {id: 7, 
             title: "Computer Programming",
             paragraph1: "One of my most recent pursuits has been to learn how to code and design websites with JavaScript, the most popular front-end programming language in the world. In fact, the website you're perusing right now is the product of a joint project with my incredibly talented younger brother David - a fullstack software dev.", 
-            paragraph2: "Begininng in the fall of 2021, we've collaborated to design and publish this portfolio from scratch. While I'm still just a beginner when it comes to computer programming, I've learned an incredible amount from David in the dozens of hours that we've spent building, modifying, and adapting joshvenegas.com together.",
+            paragraph2: "Beginning in the fall of 2021, we've collaborated to design and publish this portfolio from scratch. While I'm still just a beginner when it comes to computer programming, I've learned an incredible amount from David in the dozens of hours that we've spent building, modifying, and adapting joshvenegas.com together.",
             image: CodingImage
         },
         {id: 8, 
