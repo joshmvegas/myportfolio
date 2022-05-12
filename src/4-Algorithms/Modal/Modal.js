@@ -22,7 +22,7 @@ function Modal({open, setOpenModal, modalID}) {
         {id: 1, 
             title: "Crisis Counselor",
             paragraph1: "When Covid-19 shut the world down early in 2020, I began to look for an online volunteer experience that I could invest in over the summer. Counseling for Crisis Text Line was the perfect solution, allowing me to connect dynamically with individuals who needed support without the requirement of traveling to a physical location.", 
-            paragraph2: "Since that summer, I've had the incredible honor of chatting with over 350 texters, working through issues like suicidal ideation, isolation, and eating disorders. Not every conversation ends perfectly, and sometimes the job can be draining. Yet the countless rewarding moments are well worth the effort it takes to turn a hot moment into a cool calm.",
+            paragraph2: "Since that summer, I've had the incredible honor of chatting with over 350 texters, working through issues like suicidal ideation, isolation, and eating disorders. Not every conversation ends perfectly, and sometimes the job can be draining. Yet meeting these texters in their hardest moments is incredibly fulfilling, demonstrating the incredible power of a sincere, compassionate connection.",
             image: CTLImage
         },
         {id: 2, 
