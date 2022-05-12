@@ -45,7 +45,7 @@ function Skills() {
                 </h1>
                 <p className="skills-description">
                     <TypeWriterEffect startDelay={1000} cursorColor="white" text="'Live as if you were to die tommorrow." typeSpeed={35} hideCursorAfterText={true}/>&nbsp;&nbsp;
-                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={3000} cursorColor="white" text="Learn as if you were to live forever.' -Mahatma Ghandi" typeSpeed={35} hideCursorAfterText={true}/></span>
+                    <span id="skillsMobileSecond"><TypeWriterEffect startDelay={3000} cursorColor="white" text="Learn as if you were to live forever.' —Mahatma Ghandi" typeSpeed={35} hideCursorAfterText={true}/></span>
                 </p>
                 <div className="skills-box">
                     <h1 className="skills-title">Hard Skills</h1>

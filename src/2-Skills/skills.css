@@ -46,7 +46,7 @@
     display: flex;
     align-items: flex-start;
     font-size: .8rem;
-    width: 87rem;
+    width: 82.25rem;
     height: 2.5rem;
     margin-top: 2rem;
 }
@@ -58,15 +58,7 @@
     50% {margin-top: 0rem; margin-bottom: 0rem}
     100% {opacity: 1; margin-top: 0rem; margin-bottom: 0rem}
 }
-@-webkit-keyframes skilsHeadFade {
-    10% {opacity: 0}
-    50% {margin-top: 0rem; margin-bottom: 0rem}
-    100% {opacity: 1; margin-top: 0rem; margin-bottom: 0rem}
-}
 @keyframes skilsBoxFade {
-    100% {opacity: 1}
-}
-@-webkit-keyframes skilsBoxFade {
     100% {opacity: 1}
 }
 .skills-box {
@@ -270,6 +262,7 @@
 }
 .flatiron-img-hover-box {
     position: absolute;
+    display: -ms-grid;
     display: grid;
     place-content: center;
     height: 100%;
@@ -283,6 +276,7 @@
     position: absolute;
     font-size: 2.5rem;
     color: white;
+    width: -moz-fit-content;
     width: fit-content;
     top: 50%;
     left: 50%;
@@ -445,6 +439,10 @@
     .skills-box {
         width: 95%;
     }
+    .skills-item h2 {
+        font-size: 2.25rem;
+        padding: 1.25rem 0 .65rem;
+    }
 }
 @media (max-width: 1350px) {
     .skills-item {
@@ -456,9 +454,6 @@
         height: 7rem;
         width: 7rem;
     }
-    .skills-item h2 {
-        font-size: 2.5rem;
-    }
     .skills-item p {
         font-size: 1.275rem;
         line-height: 1.45;
@@ -469,11 +464,15 @@
         padding-top: 2rem;
         width: 96%;
     }
+    .flatiron-text-box p {
+        font-size: 1.75rem;
+        line-height: 2.175rem;
+    }
 }
 @media (max-width: 1250px) {
     .skills-description {
         font-size: .75rem;
-        width: 89.5rem;
+        width: 77rem;
     }
     .skills-container {
         padding: 3.5rem 0 3.5rem 16.5rem;
@@ -487,9 +486,6 @@
         height: 6.25rem;
         width: 6.25rem;
     }
-    .skills-item h2 {
-        font-size: 2.35rem;
-    }
 }
 @media (max-width: 1200px) {
     .cert-items {
@@ -499,6 +495,9 @@
         font-size: 1.5rem;
         line-height: 1.45;
     }
+    .flatiron-description-box ul {
+        font-size: 1.55rem;
+    }
 }
 @media (max-width: 1150px) {
     .skills-box {
@@ -507,7 +506,7 @@
     .skills-item {
         height: 16.5rem;
         width: 18rem;
-        padding: 0 .75rem;
+        padding: 0 .5rem;
     }
     .skills-item h2 {
         font-size: 2.25rem;
@@ -515,6 +514,9 @@
     .skills-item p {
         font-size: 1.2rem;
         line-height: 1.45;
+    }
+    .flatiron-description-box ul {
+        font-size: 1.45rem;
     }
 }
 @media (max-width: 1100px) {
@@ -537,6 +539,9 @@
     .cert-items {
         width: 95%;
     }
+    .flatiron-description-box ul {
+        font-size: 1.4rem;
+    }
 }
 @media (max-width: 1000px) {
     .skillSeparator {
@@ -544,6 +549,9 @@
     }
 }
 @media (max-width: 950px) {
+    .cert-title {
+        font-size: 3rem;
+    }
     .skills-header {
         font-size: 5.5rem;
     }
@@ -554,7 +562,8 @@
         flex-direction: column;
         width: 100%;
         height: 57.5rem;
-        background-color: #333;
+        background-color: #fff;
+        border-radius: 0 0 .5rem .5rem;
     }
     .flatiron-img-wrapper {
         height: 25rem;
@@ -579,6 +588,7 @@
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
+        width: -moz-fit-content;
         width: fit-content;
         height: 5.5rem;
         margin-top: 2rem;
@@ -664,11 +674,8 @@
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
-    .skills-box {
-        padding: 1.25rem 0;
-    }
     .skills-item {
-        height: 11rem;
+        height: 11.25rem;
         width: 25rem;
         padding: 0;
     }
@@ -696,15 +703,16 @@
         line-height: 1.4;
     }
     .skills-box {
+        padding: 2rem 0;
         width: 30rem;
-        height: 57rem;
+        height: 59.25rem;
         justify-content: flex-start;
     }
     .skills-box:first-of-type {
         margin-top: 5rem;
     }
     .cert-title {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
         margin-bottom: 1rem;
     }
     .cert-text-box p {
@@ -719,10 +727,10 @@
         font-size: 1.5rem;
     }
     .flatiron-text-box h1 {
-        font-size: 3rem;
+        font-size: 2.85rem;
     }
     .flatiron-text-box h4 {
-        font-size: 1.95rem;
+        font-size: 1.85rem;
     }
     .flatiron-text-box p {
         font-size: 1.5rem;
@@ -742,8 +750,7 @@
         line-height: 1.35;
     }
     .flatiron-description-box ul {
-        font-size: 1.25rem;
-        line-height: 1.25;
+        font-size: 1.2rem;
     }
     .flatiron-text-box p {
         font-size: 1.25rem;
@@ -793,6 +800,18 @@
         font-size: 1.5rem;
     }
 }
+@media (max-width: 380px) {
+    .flatiron-description-box ul {
+        font-size: 1.075rem;
+    }
+    .flatiron-description-box p {
+        padding-top: .85rem;
+    }
+    .flatiron-text-box p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
 @media (max-width: 360px) {
     .education-header {
         font-size: 2.25rem;
@@ -814,6 +833,9 @@
     .flatiron-text-box {
         height: 33.5rem;
         padding: 0 1rem;
+    }
+    .flatiron-description-box ul {
+        font-size: 1rem;
     }
     .flatiron-text-box h1 {
         font-size: 2.65rem;
