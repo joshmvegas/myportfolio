@@ -21,7 +21,7 @@ function Modal({open, setOpenModal, modalID}) {
             image1: OneImage,
             image2: TwoImage,
             image3: ThreeImage,
-            url: "https://academics.prismahealth.org/academics/education/medex-academy",
+            url: "https://joshvenegaswix.wixsite.com/journeysdawn/basic-01",
         },
         {id: 2, 
             title: "Clinical Shadowing",
